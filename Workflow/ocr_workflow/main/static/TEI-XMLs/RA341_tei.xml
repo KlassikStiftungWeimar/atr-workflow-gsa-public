@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?ra-sorting-number bd="1" n="3410"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ra341">
+<text  xml:id="ra341_source">
+  <front>
+   <div type="address"><note type ="editorial">hat keine Adresse, ist geprüft</note></div>
+  </front>
+  <body>
+    <div type="letter">
+    <div type="writingSession" n="1">
+      <pb n="1" facs="ra:digitalisate#341/2265"/>
+      <opener>
+        <lb/><dateline><placeName><hi rendition="#latin">Rom</hi></placeName> d<g ref="#typoSuspension"/> <date when="1788-11-05"> 5 <hi rendition="#latin"><abbr>Nov:</abbr></hi> <hi rendition="#u">1788</hi></date></dateline>
+         </opener>
+      <p>
+        <lb/>
+          <lb/>Wissen Sie wohl <seg type="closer"><seg type="salute">mein theurer Freund</seg></seg> ich komme
+        <lb/>nach Weimar &#x2013; hetten Sie Sich <abbr>d</abbr>wohl traumen können. 
+<lb/>Ihro Durlaucht die Frau Herzogin hat unserem
+<lb/>guten <abbr>H<g ref="#typoSuspension"/>.</abbr> Rath <hi rendition="#latin">Reiffenstein &#x2013; Zucchi</hi> und mich auf 
+<lb/>das Gnädigste eingeladen entweder mit Ihr zurück
+<lb/><abbr>od</abbr> Ihr zu folgen. Die <abbr>Fraüle</abbr> von Jehaußen &#x2013;  
+<lb/>der Herr Herder &#x2013; waren zu Gegen stimten 
+<lb/>auch mit über ein &#x2013; wie war eß möglich ein so schönen
+<lb/>antrag der auf die Gnedigste art gemacht wurde zu
+<lb/>widerstehen. Das versprechen wurde gemacht, so
+<lb/><hi rendition="#u">ferne</hi> die <hi rendition="#u">umstände</hi> eß <hi rendition="#u">erlaubten</hi>. Das Glückseelige
+<lb/>Weimar das, seit dem das Glück mir gegönt Sie zu kennen,
+<lb/>ich so offt beneidet habe, wo ich mich mit gedancken
+<lb/>so offt, und so gerne aufhalte solte ich das sehen, und
+<lb/><hi rendition="#u">Sie da</hi> sechen, oh schöner traum! Doch noch vor die Reiße
+<lb/>angehete hoffe ich Sie noch einmahl in <hi rendition="#latin">Rom</hi> zu sehen.
+<lb/>indessen habe ich Ihnen zu dancken mein bester Freund
+<lb/>das die Frau Herzogin sich so Gnädig gegen mier erzeigt
+<lb/>Dieße gnädige Fürstin hat meine wohnung schon verschiedne
+<lb/>mahl beschert und erlaubt mier zu Ihr zu kommen.
+<lb/>wie offt wirt von Ihnen gesprochen und welche Freude
+<lb/>fühl Ich in meiner Seele. vor einigen Abend giengen
+<lb/>Ihr Durlaucht mit der ganzen gesellschafft, nehmlich Herr <abbr>Bar<g ref="#typoSuspension"/></abbr>    
+<lb/>von Dalberg &#x2013; die Frau von Seckendorf, Herr <abbr>Hered<g ref="#typoSuspension"/>:</abbr> nach dem <hi rendition="#latin">Museum</hi> 
+<pb n="2" facs="ra:digitalisate#341/2266"/>
+<lb/>Zucchi und Ich hatten die Ehre auch mit zu kommen. Das
+<lb/>war vor mich ein großes fest aber mier fehlte doch noch
+<lb/>etwas mein vergnügen volkommen zu machen, Ihr
+<lb/>Nahmen erschalte im Sale der Mußen; ich sah mich um
+<lb/>und sahe Sie, aber nur im Geiste. Da wier alle vor dem
+<lb/><hi rendition="#latin">Apollo</hi> gestanden wurde <hi rendition="#latin">proponirt</hi> dem Gott ein
+<lb/>gebett zu Opfern, Herr Herder sagte es würde wohl
+<lb/>ein Jeder, <abbr>od</abbr> eine Jede, eine eigne bitte an den Gott zu machen
+<lb/>haben, meine Bitte an den <hi rendition="#latin">Apollo</hi> war, das er Sie <hi rendition="#latin">inspirire</hi>     
+<lb/>nach <hi rendition="#latin">Rom</hi> zu kommen, das mein bitten doch erhört würde.
+<lb/>Das müße sein Ehe dem Ich nach Weimar komme. wie
+<lb/>angenehm ist die Ganze gesellschafft, wie gut wie
+<lb/>vertraulich, und wie sehr lieb hab ich die <abbr>Fraüle</abbr> von
+<lb/>Jehaußen. Sie ist so verständig und so lebhafft.
+<lb/>und findet sich so wohl. Ja auch die Fürstin scheint
+<lb/>sehr vergnügt zu sein. Das wetter ist so schön. alles
+<lb/>zeigt sich so vortheilhafft. die Frau von Seckendorff
+<lb/>verpflichtet sich Ihnen auf das beste. 
+     </p>
+     <p>
+<lb/>Ich seche mit Freunden aus Ihrem allerliebsten briefe
+<lb/>das Sie mit dem <hi rendition="#latin">Titel</hi>Kupfer zu frieden sind, die
+<lb/>Zeichnung habe ich unserem guten Herr Rath gegeben
+<lb/>die er vermutlich heute mit anderen Sachen an Sie
+<lb/>abschicken wirt. ich höre schon viel schönes von Ihrem
+<lb/><hi rendition="#latin">Tasso</hi> &#x2013; wie sehr freue ich mich auf dießes wercke; die
+<lb/>weit laüffige Hoffnung die Sie mier geben mier das
+<lb/>werck vorzuleßen, ist vor mich ein trost, der <hi rendition="#latin">Apollo</hi>
+<lb/>stercke Sie doch in dießem guten vorhaben. indessen
+<lb/>dancke ich Ihnen zum voraus vor die mier zugedachten Wercke.
+<pb n="3" facs="ra:digitalisate#341/2267"/>
+<lb/>ich hatte sehr gewünscht den guten Herr Kaißer wieder zu
+<lb/>sechen. was mag wohl die ursach sein das er nicht mit der 
+<lb/>Herzogin gekommen! Der <hi rendition="#latin"><abbr>Sig:</abbr> Carlo abbacini</hi> hat mir folgende    
+<lb/><hi rendition="#latin">Musik</hi> gegeben so er vor den Herr Kaißer hat copieren lassen.
+<lb/>nehmlich / <hi rendition="#latin #u">Passio a Quattro voci Per il vemedi santo del
+<lb/><abbr>Sig:</abbr> Ludovio Vittoria.</hi> &#x2013; <hi rendition="#latin #u">Mottetto a cinque voci, ò bone
+<lb/>Serie del Palestrini</hi>. übrigeß waß verlangt wurde.
+<lb/>Soll nicht möglich sein zu haben sagte mein obgemelter
+<lb/><hi rendition="#latin"><abbr>Sig:</abbr >Albanini</hi>. wen <hi rendition="#latin">Spina</hi> <abbr>wied.</abbr>zurückgekommen,
+<lb/>will ich sehen was <hi rendition="#u">er</hi> aufwürcken kan, werde Ihn auch Herrn
+<lb/>Herder bekant machen. Dießer Freund wünscht immer Sie
+<lb/>wieder zu sehen, er ist zum <hi rendition="#latin">auditor del <abbr>Mos<hi rendition="#sup #u">d.</hi></abbr> Magiordomo</hi>
+<lb/>erwählt worden, anstat dem <hi rendition="#latin">Conte Simonetti</hi> den wier
+<lb/>verwichnes Jahr in <hi rendition="#latin">Castello</hi> gesehen haben, der schöne mann
+<lb/>der Ihnen so gefallen &#x2013; <hi rendition="#latin">der Comandeur Dolomieu</hi> ist auch wied
+<lb/>von <hi rendition="#latin">Florenz</hi> zurückgekommen. fragte auch gleich nach Ihnen
+<lb/>und fragte so viel gutes, und liebes von Ihnen,das ich Ihme
+<lb/>würcklich gut geworden bin, er hat mier auffgetragen Ja
+<lb/>nicht zu vergessen ein Jedes mahl das ich an Sie schriebe sein
+<lb/><hi rendition="#latin">Complement</hi> zu melden und Sie seiner wahren Hochachtung
+<lb/>und Freundschafft zu versicheren. andere bekante von mier
+<lb/>die <abbr>d</abbr> glück gehabt haben Sie zu kennen fragen mich immer
+<lb/>ob Sie nicht widerkommen, das ich sagen könte <hi rendition="#u">Ja er kommt</hi>
+<lb/><hi rendition="#u">wieder</hi>. <hi rendition="#latin">Castello</hi> hab ich das Jahr gar nicht gesehen. das die <hi rendition="#latin">Sig:</hi>
+<lb/><hi rendition="#latin">Madalena Riggi</hi> sich nun <hi rendition="#latin">Volpato</hi> schreibt ist Ihnen schon
+<lb/>bekant, ein spazierfahrt die sie mit uns nach der porzlan
+<lb/>fabrik gemacht ist ursach davon, der Jüngere volpato der Sich eine 
+<lb/>Frau gewünscht, hatte das glück Ihr zu gefallen, Sich sehen, und Sich
+<lb/>lieben, war einß &#x2013; die <hi rendition="#latin"><abbr>Sig</abbr> Madalena</hi> hatte dies mahl kein wort <abbr>wid.</abbr> 
+<lb/>die <hi rendition="#u"><hi rendition="#latin">Capittoli</hi></hi>einzuwenden, in Zeit von 14 tagen war alles beschlossen
+<lb/>bis Jezzo ist das ein glückliches par hoffe Sie werden es immer sein beide Seind gut.
+</p>
+<note type="postscript" n="1" place="top"> 
+<p>
+          <lb/><abbr><hi rendition="#latin">PS.</hi></abbr> weis nicht wo Herr Keißer sich befindet um Ihnen die <hi rendition="#latin">Musik</hi>
+          <lb/>die ich habe, <abbr>od</abbr> etwan noch von Ihm bekommen werde zuzuschicken
+          <lb/>ich weiß Sie gönnen meine Freude, folglich hoffe ich werden Sie mier
+          <lb/>doch bald <abbr>wied</abbr> schreiben, meine briefe werden zu lang und doch ist nicht die Hälfte
+          <lb/>gesagt von dem vielem was ich Ihnen zu sagen hatte. Viele Grüße an den guten <abbr>Herz.</abbr> 
+        </p>
+      </note>
+</div>
+<pb n="4" facs="ra:digitalisate#341/2268"/>
+<div type="writingSession" n="2">
+   <opener>
+        <lb/><dateline><abbr>d<g ref="#typoSuspension"/></abbr> <date when="1788-11-08"></date>8-9:<hi rendition="#sup">ten</hi></dateline>
+         </opener>
+<p>
+<lb/>Zucchi hat mir auch aufgetragen alles höffliches und freundliches
+<lb/>zu sagen und Sie zu bitten Sie wollen Ihn in gütigem
+<lb/>andencken erhalten. wie offt sprechen wir von Ihnen.
+<lb/>aber leider nicht <hi rendition="#u">mit</hi> Ihnen. Ach! Die liebe Zeit, die schöne
+<lb/>Sontage, an die ich dencken werde so lang ich lebe.
+<lb/>Ihr Durchlaucht die Herzogin zeigt Lust von mir
+<lb/>gemahlt zu werden. Künfftige wochen werde ich die
+<lb/>Ehre haben den anfang zu machen. wünsche mit meiner
+<lb/>Arbeit gefallen zu können. mit den zwei gemählde
+<lb/>aus dem shakespear bin ich nun fast zu ende. eine
+<lb/>menge andere Sachen warten auf den anfang &#x2013; eins
+<lb/>nach dem anderen, wirt nach und nach alles gemacht.
+<lb/>So lang die gesundheit daurt, mit der ich biß jezo zufrieden
+<lb/>bin. mier ist sehr viel an der Ihrigen gelegen die ich
+<lb/>zu versorgen bitte. Vor ein par tagen sah ich ein
+<lb/><hi rendition="#latin">intaglio</hi> &#x2013; es soll ein <hi rendition="#latin">Totomeo</hi> sein, in <hi rendition="#latin">Hiazint</hi> geschnitten
+<lb/>der mier nicht missfallen, in dessen schicke ich Ihnen ein
+<lb/>abdruck hier eingeschlossen von einer <hi rendition="#latin">Maske</hi> &#x2013; hofe das ohn<lb break="no"/>
+<lb/>geschädiget bleibt danit Sie mir sagen können obs Ihnen
+<lb/>gefalt, der stein ist ein klarer <hi rendition="#latin">Carniol</hi>. ob gesagtem Kopf
+<lb/><abbr>od</abbr> <hi rendition="#latin">Intaglio</hi> werde ich <abbr>wid.</abbr> sechen, Der stein ist sehr schön. und
+<lb/>meisterlich geschnitten &#x2013; so viel ich bis jezzo davon hab sehen
+<lb/>können &#x2013; nur habe ich auch ein Zweifel, wegen dem 
+<lb/><hi rendition="#latin">Sujet</hi>, weillen man under den vier antiken den Kopf
+<lb/>eines Philosophen zu haben wünscht. ein wort
+<lb/>über dieses von Ihnen wirt mich aus dem Zweifel sezzen
+<lb/>und mir zur Regel dienen. es freut mich das Sie mit ihrer
+<lb/>Situation zufrieden seind, das Sie Zeit haben Ihre wercke auszuführen
+<lb/>gereicht zum vortheil allen denen, die Sie verehren in Ihren wercken. 
+</p>
+  <closer>
+        <lb/><salute>Leben Sie recht vergnügt und wohl &#x2013; haben Sie ein Müssigen augenblick &#x2013;
+<lb/>so gedenken Sie meiner &#x2013;  bald hoffe ich wird ein brief von Ihnen. Leben Sie wohl
+<lb/>bester Freund</salute>
+        <lb/><signed><abbr>AK.</abbr></signed>
+      </closer>
+    </div>
+      </div>
+  </body>
+</text>
+
+
+</TEI>

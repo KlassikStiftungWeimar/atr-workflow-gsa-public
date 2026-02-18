@@ -1,0 +1,8 @@
+/venv
+/.idea
+ocr_workflow/.env
+/ocr_workflow/ocr_workflow/__pycache__
+/ocr_workflow/ocr_workflow/components/__pycache__
+/ocr_workflow/main/__pycache__
+/ocr_workflow/main/migrations/__pycache__
+/ocr_workflow/staticfiles

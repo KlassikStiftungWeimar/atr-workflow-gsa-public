@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?ra-sorting-number bd="4" n="4600"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ra5184">
+<text  xml:id="ra5184_source">
+<front>
+ <div type="address"><note type ="editorial">hat keine Adresse, ist geprüft</note></div>
+ </front>
+  <body>
+<div type="letter">
+<pb n="1"/>
+<p>
+<lb/>Ich nehme mir die Freiheit Alles, was ich von
+<lb/>Ihrer und unsers gemeinschaftlichen Freundes, Herrn
+<lb/>Professor Meyers, Güte erhalten habe, zusammen
+<lb/>in einem Portefeuil, bis auf das letzte Blatt,
+<lb/>zu übersenden, in der Voraussetzung, dass eine
+<lb/>vorhabende freundschaftliche Auseinandersetzung das
+<lb/>Weitere bald in Ordnung bringen wird. <seg type="closer"><seg type="salute">In Hoff<g ref="#typoHyphen"/>
+<lb break="no"/>nung, für diese gütige Mittheilung, Ihnen bald
+<lb/>mündlich meinen warmsten Dank wiederhohlen
+<lb/>zu können, bin ich mit der unabänderlichsten
+ <lb/>Hochachtung</seg></seg>
+</p>
+<closer>
+ <salute>
+ <lb/>Ihr
+ <lb/>ergebenster 
+ </salute>
+ <signed>
+ <lb/><abbr>J D.</abbr> Falk.
+ </signed>
+</closer> 
+<postscript n="1">
+ <p>
+ <lb/><hi rendition="#latin"><abbr>N. B.</abbr></hi>
+ <lb/>Die Raphaels und Michael Angelos
+<lb/>sind zu oberst und besonders gelegt
+ </p>
+</postscript>
+<pb n="2"/>
+</div>
+  </body>
+</text>
+</TEI>

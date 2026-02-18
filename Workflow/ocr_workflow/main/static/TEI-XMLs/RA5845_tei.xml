@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?ra-sorting-number bd="4" n="11210"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ra5845">
+<text  xml:id="ra5845_source">
+<front>
+ <div type="address"><note type ="editorial">hat keine Adresse, ist geprüft</note></div>
+ </front>
+  <body>
+<div type="letter">
+<pb n="1"/>
+<opener>
+<salute><abbr>Ew.</abbr> Hochgeboren</salute>
+</opener>
+<space dim="vertical"/>
+<p>
+<lb/>übersende ich mit dem hochachtungsvollsten Danke für alles
+<lb/>heut Erhaltene, was ich bestens besorgen werde,
+<lb/><space dim="horizontal"/>1) den gnädig mitgetheilten Brief des <abbr>Hn.</abbr> <hi rendition="#latin">Thon</hi>,
+<lb/><space dim="horizontal"/>2) drey interessante Briefe, welche unter vielen seit
+<lb/>ein paar Tagen eingelaufen sind.
+ </p>
+<closer>
+<salute> 
+ <lb/>Mit freudiger Sehnsucht Ihre glückliche Rückkehr
+<lb/>zu uns erwartend empfehle ich mich
+<lb/><abbr>Ew.</abbr> Hochgeboren
+<lb/> Hochachtungsvoll
+</salute>
+ <lb/><signed>Eichstädt</signed>
+<dateline>
+ <lb/><placeName><hi rendition="#latin">Jena</hi></placeName> <abbr>d</abbr> <date when="1803-11-18">18 <abbr>Nov.</abbr> 1803.</date>
+ </dateline>  
+</closer>
+<pb n="2"/>
+</div>
+  </body>
+</text>
+</TEI>

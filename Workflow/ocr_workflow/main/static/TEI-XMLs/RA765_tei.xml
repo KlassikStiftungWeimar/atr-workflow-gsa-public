@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?ra-sorting-number bd="1" n="7650"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ra765">
+<text  xml:id="ra765_source">
+  <front>
+<div type="address"><note type ="editorial">hat keine Adresse, ist geprüft</note>
+</div>
+</front>
+<body>
+<div type="letter">
+<pb n="1" facs="ra:digitalisate#765/7352"/>
+<opener>
+<lb/><dateline><placeName>Franckfurth</placeName> a <date when="1793-09-19">19 <abbr>Septber</abbr> 1793</date></dateline>
+</opener>
+<p>
+<table>
+<head><lb/><hi rendition="#latin">Nota von Marius &#x26; Schmidt</hi></head>
+<row>
+<cell>2 Schachtel <hi rendition="#latin">Diverse <abbr>Confidg</abbr></hi></cell> 
+<cell>a 18 <abbr>b<g ref="#typoSuspension"/></abbr></cell>
+<cell><abbr>f</abbr></cell> 
+<cell>2&#x3003;</cell> 
+<cell>24</cell>
+</row>
+<row>
+<cell>&#xBC; &#x00A3; Schinken</cell> 
+<cell/>
+<cell>&#x3003;</cell>
+<cell/>
+<cell>18.</cell>
+</row>
+<row>
+<cell>&#xBC; &#x00A3; Neßer</cell>
+<cell/>
+<cell>&#x3003;</cell>
+<cell>&#x2015;</cell>
+<cell>18.</cell>
+</row>
+<row>
+<cell>&#xBC; &#x00A3; redig</cell>
+<cell/>
+<cell>&#x3003;</cell>
+<cell>&#x2015;</cell>
+<cell>18</cell>
+</row>
+<row>
+<cell>&#xBC; &#x00A3; hassel nuß</cell>
+<cell/>
+<cell>&#x3003;</cell>
+<cell>&#x2015;</cell>
+<cell>18.</cell>
+</row>
+<row>
+<cell>&#x215C; &#x00A3; Brenden</cell>
+<cell/>
+<cell>&#x3003;</cell>
+<cell>&#x2015;</cell>
+<cell>18.</cell>
+</row>
+<row>
+<cell>&#x215C; &#x00A3; Erdbern</cell>
+<cell/>
+<cell>&#x3003;</cell>
+<cell>&#x2015;</cell>
+<cell>24.</cell>
+</row>
+<row>
+<cell/>
+<cell/>
+<cell/>
+<cell>&#x2015;</cell>
+<cell>30.</cell>
+</row>
+<row>
+<cell>&#xBE; &#x00A3; Blumen Kohl Austern und Kräbs</cell>
+<cell/>
+<cell>&#x3003;</cell>
+<cell>&#x2015;</cell>
+<cell>54.</cell>
+</row>
+<row>
+<cell>&#x00BD; &#x00A3; Späck und Zimet Kügelgen</cell>
+<cell/>
+<cell>&#x3003;</cell>
+<cell>&#x2015;</cell>
+<cell>32.</cell>
+</row>
+<row>
+<cell>&#xBC; &#x00A3; <hi rendition="#latin">Nocco</hi> Spähe</cell>
+<cell/>
+<cell>&#x3003;</cell>
+<cell>&#x2015;</cell>
+<cell>18.</cell>
+</row>
+<row>
+<cell>&#x00BD; &#x00A3; <hi rendition="#latin">Cholath</hi> und <hi rendition="#latin">Citron Biscit</hi></cell>
+<cell/>
+<cell>&#x3003;</cell>
+<cell>&#x2015;</cell>
+<cell>40.</cell>
+</row>
+<row>
+<cell>6 Loth Wind <abbr>Kürbg<g ref="#typoSuspension"/></abbr></cell>
+<cell/>
+<cell>&#x3003;</cell>
+<cell>&#x2015;</cell>
+<cell>20.</cell>
+</row>
+<row>
+<cell>&#xBC; &#x00A3; <hi rendition="#latin">Diverse</hi> Wind</cell>
+<cell/>
+<cell>&#x3003;</cell>
+<cell>&#x2015;</cell>
+<cell>28.</cell>
+</row>
+<row>
+<cell>&#xBC; &#x00A3; Kleine <abbr>Biscitg<g ref="#typoSuspension"/></abbr></cell>
+<cell/>
+<cell>&#x3003;</cell>
+<cell>&#x2015;</cell>
+<cell>20</cell>
+</row>
+<row>
+<cell>&#xBC; &#x00A3; Gedults Täfel</cell>
+<cell/>
+<cell>&#x3003;</cell>
+<cell>&#x2015;</cell>
+<cell>18.</cell>
+</row>
+<row>
+<cell>&#xBC; &#x00A3; Spargel</cell>
+<cell/>
+<cell>&#x3003;</cell>
+<cell>&#x2015;</cell>
+<cell>18</cell>
+</row>
+<row>
+<cell>&#xBC; &#x00A3; Glatiotes</cell>
+<cell/>
+<cell>&#x3003;</cell>
+<cell>&#x2015;</cell>
+<cell>16.</cell>
+</row>
+<row>
+<cell>vor Kräbs</cell>
+<cell/>
+<cell>&#x3003;</cell>
+<cell>&#x2015;</cell>
+<cell>16.</cell>
+</row>
+<row>
+<cell>&#xBC; &#x00A3; Morglen</cell>
+<cell/>
+<cell>&#x3003;</cell>
+<cell>&#x2015;</cell>
+<cell>20.</cell>
+</row>
+<row>
+<cell>&#xBC; &#x00A3; <hi rendition="#latin">Fiolinen</hi></cell>
+<cell/>
+<cell>&#x3003;</cell>
+<cell>&#x2015;</cell>
+<cell>18.</cell>
+</row>
+<row>
+<cell>&#xBC; &#x00A3; Tüttgen</cell>
+<cell/>
+<cell>&#x3003;</cell>
+<cell>&#x2015;</cell>
+<cell>18.</cell>
+</row>
+<row>
+<cell>vor die Schachtle</cell>
+<cell/>
+<cell>&#x3003;</cell>
+<cell><hi rendition="#u">&#x2015;</hi></cell>
+<cell><hi rendition="#u">16.</hi></cell>
+</row>
+<row>
+<cell>vor Wachstuch</cell>
+<cell/>
+<cell><abbr>f</abbr></cell>
+<cell>10&#x3003;</cell>
+<cell>22</cell>
+</row>
+<row>
+<cell/>
+<cell/>
+<cell/>
+<cell/>
+<cell><hi rendition="#u">12.</hi></cell>
+</row>
+<row>
+<cell/>
+<cell/>
+<cell><abbr>f</abbr></cell>
+<cell>10&#x3003;</cell>
+<cell>34<abbr>x</abbr></cell>
+</row>
+</table>
+</p>
+<pb n="2" facs="ra:digitalisate#765/7353" type="empty"/>
+<pb n="3" facs="ra:digitalisate#765/7354"/>
+<p>
+<lb/>Auch kan man bey unß haben
+<lb/>alle sorten feine <hi rendition="#latin">Dragee</hi> und <hi rendition="#latin">Pastilage</hi>
+<lb/>fein orange Bluth verZucker alle <abbr>Sort<g ref="#typoSuspension"/></abbr> <hi rendition="#latin">Cholath
+<lb/>Pfeffer</hi>münztägen feine orange <abbr>Schah<g ref="#typoSuspension"/>.</abbr>
+<lb/>Frucht Bappilloten. <hi rendition="#latin">Pastalten.</hi> auch
+<lb/>noch von fielen Sorten Confect velge
+<lb/>Sich nicht alle benahmen lasen, alle Sorten
+<lb/><hi rendition="#latin">Gellé</hi> alle Sorten Früchte, alles in billigsten Preis
+</p>
+<pb n=""/>
+</div>
+<pb n="4" facs="ra:digitalisate#765/7355" type="empty"/>
+  </body>
+</text>
+</TEI>

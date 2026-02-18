@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?ra-sorting-number bd="1" n="11870"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ra1187">
+<text  xml:id="ra1187_source">
+  <body>
+<div type="letter">
+<pb n="1" facs="ra:digitalisate#1187/11994"/>
+<opener>
+<lb/><salute>HochWohlgebohrner
+<lb/>Gnädiger Herr!</salute>
+</opener>
+<p>
+<lb/><abbr>Ew:</abbr> <hi rendition="#latin">Exzellenz</hi> gnädigen Auftrage zufolge
+<lb/>habe die Ehre <hi rendition="#latin">Denenselben</hi> hierdurch den
+<lb/>Eymer SteinWein zu übersenden. Wovor
+<lb/><hi rendition="#latin">Dieselben</hi> nach austehender <hi rendition="#latin">Nota</hi> mir
+<lb/>den Betrag von <abbr>Rh</abbr> 40. 12 <abbr>g<g ref="#typoSuspension"/></abbr> gnädigst
+<lb/>gut schreiben werden.
+</p>
+<p>
+<lb/>Schon eher hätte ich diesen Wein an <abbr>Ew.</abbr>
+<lb/><hi rendition="#latin">Exzellenz</hi> abgesendet, wenn die Kälte nicht
+<lb/>so strenge gewesen wäre.
+</p>
+<p>
+<lb/>Zum Lobe dießes Weins wäre überflüßig
+<lb/>etwas zu sagen, indem <abbr>Ew:</abbr> <hi rendition="#latin">Exzellenz</hi> solchen
+<lb/>nach hinlänglicher Prüfung gewiß preißwürdig
+<lb/>und gut finden werden. Ich werde mir auch
+<lb/>eine besondre Gnade und Ehre daraus machen,
+<lb/>wenn mein Wein, woran ich nicht zweifle
+<lb/>Dero Beyfall erhält.
+</p>
+<p>
+<lb/><seg type="closer"><seg type="salute">In Hoffnung deßen sich unterthänigst mit
+<lb/>den grösten <hi rendition="#latin">Respect.</hi> die Ehre hat zu empfelen</seg></seg>
+</p>
+<closer>
+<lb/><salute><abbr>Ew:</abbr> HochWohlgebohrn <hi rendition="#latin">Exzellenz</hi>
+<lb/>Ganz unterthänigster Diener</salute>
+<lb/><signed>Frantz Frölich</signed>
+<lb/><dateline><placeName>Erfurth</placeName> den <date when="1794-12-30">30<hi rendition="#sup #u">ten</hi> <hi rendition="#latin">Dec.</hi>
+<lb/>1794.</date></dateline> 
+</closer>
+<pb n="2" facs="ra:digitalisate#1187/11995" type="empty"/>
+<pb n="3" facs="ra:digitalisate#1187/11996"/>
+<postscript n="1">
+<p>
+<table>
+<head><lb/><hi rendition="#u">Nota über</hi></head>
+<row>
+<cell><abbr>N<hi rendition="#sup #u">ro</hi></abbr> 76. Ein Faß von</cell>
+<cell>i Eymer SteinWein</cell>
+<cell><abbr>Rr<g ref="#typoSuspension"/></abbr> 40.</cell>
+<cell/>
+</row>
+<row>
+<cell/>
+<cell>für Faß</cell>
+<cell><hi rendition="#u">&#x2015;</hi></cell>
+<cell><hi rendition="#u">12.</hi></cell>
+</row>
+<row>
+<cell/>
+<cell/>
+<cell><abbr>Rr<g ref="#typoSuspension"/></abbr> 40.</cell>
+<cell>12<abbr>g<g ref="#typoSuspension"/></abbr></cell>
+</row>
+</table>
+</p>
+</postscript>
+</div>
+<div type="address"><pb n="4" facs="ra:digitalisate#1187/11997"/>
+<p>
+<lb/>An <abbr>S<hi rendition="#sup #u">r</hi></abbr>
+<lb/>HochWohlgebohrn <hi rendition="#latin">Exzellenz</hi>
+<lb/>Des Herrn Geheimen Rath
+<lb/><hi rendition="#latin">von Göthe</hi>
+<lb/>Nebst einen <abbr>Fäß<g ref="#typoSuspension"/></abbr> Wein wohl ver<g ref="#typoHyphen"/>
+<lb break="no"/>siegelt und <hi rendition="#latin">sign</hi>irt <hi rendition="#latin">N<hi rendition="#sup #u">ro</hi> 76.</hi>
+<lb/>In Fracht was gewöhnlich ist.
+<lb/>in
+<lb/><hi rendition="#latin">Weimar</hi>
+</p>
+</div>
+  </body>
+</text>
+</TEI>

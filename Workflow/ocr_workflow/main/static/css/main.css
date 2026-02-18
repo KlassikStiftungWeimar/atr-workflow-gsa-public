@@ -1,0 +1,42 @@
+.openseadragon-button:hover {
+    background-color: rgba(200, 200, 200, 0.9) !important;
+}
+
+/* CodeMirror custom comparison windows */
+.CodeMirror {
+    height: 100%;
+    font-family: monospace;
+    font-size: 13px;
+    border: none;
+}
+
+/* Custom diff highlighting styles */
+.cm-diff-insert {
+    background-color: #d4edda;
+}
+
+.cm-diff-delete {
+    background-color: #f8d7da;
+}
+
+/* Active/current diff highlight */
+.cm-diff-current {
+    background-color: #ffc107 !important;
+    font-weight: bold;
+    border: 2px solid #ff9800;
+    border-radius: 2px;
+}
+
+/* Smooth transition for comparison section */
+#comparison-section {
+    transition: opacity 0.5s ease-in-out, max-height 0.3s ease-in-out;
+    overflow: hidden;
+    opacity: 1;
+    max-height: 2000px;
+}
+
+#comparison-section.hidden-smooth {
+    opacity: 0;
+    max-height: 0;
+    margin-bottom: 0;
+}

@@ -1,0 +1,366 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>ATR Workflow</title>
+
+    <!-- Tailwind -->
+    <script src="{% static 'js/tailwindcss-3.4.16.js' %}"></script>
+    <!-- Alpine.js -->
+    <script src="{% static 'js/alpinejs.min.js' %}" defer></script>
+    <!-- CodeMirror 5 -->
+    <link rel="stylesheet" href="{% static 'css/codemirror-5.65.20.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/codemirror-5.65.20-merge.min.css' %}">
+
+    <!-- Page-specific styles -->
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+
+</head>
+
+<body class="flex flex-col items-center justify-center mt-10" x-data="{ mode: 'RA' }">
+<input type="hidden" id="mode" x-model="mode">
+<!-- GL/RA mode toggle -->
+<div class="w-4/5 mb-5">
+    <div class="flex items-center justify-center">
+        <button
+                class="px-3 py-2 md:px-4 rounded-l-md transition-all font-semibold text-sm md:text-base whitespace-normal leading-tight"
+                :class="mode === 'RA' ? 'bg-[#f5b448] text-white' : 'bg-gray-200 text-gray-700'"
+                @click="mode = 'RA'"
+        >Briefe an Goethe
+        </button>
+        <button
+                class="px-3 py-2 md:px-4 rounded-r-md transition-all font-semibold text-sm md:text-base whitespace-normal leading-tight"
+                :class="mode === 'GL' ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-700'"
+                @click="mode = 'GL'"
+        >Goethes Lyrik
+        </button>
+    </div>
+</div>
+
+<!-- Status window -->
+<div id="status-window" class="w-4/5 mb-5 hidden">
+    <div class="bg-blue-50 border-2 border-blue-300 rounded-lg p-4 shadow-sm">
+        <div class="flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div id="status-spinner"
+                     class="animate-spin h-5 w-5 border-2 border-blue-500 border-t-transparent rounded-full"></div>
+                <span id="status-text" class="font-semibold text-blue-800">Texterkennung gestartet</span>
+            </div>
+            <button id="status-close-btn" class="text-gray-500 hover:text-gray-700 text-xl font-bold">&times;</button>
+        </div>
+    </div>
+</div>
+
+<!-- Text recognition controls -->
+<div class="w-4/5 mb-5">
+    <h3 class="mb-2 font-semibold">Texterkennung</h3>
+    <div class="flex flex-wrap gap-2 md:gap-4">
+
+        <div class="w-full lg:flex-1 flex flex-col">
+            <h4 class="text-xs md:text-sm mb-1">Transkribus-Modell</h4>
+            <select id="transkribus-model" class="w-full p-2 border border-gray-300 rounded-md text-xs md:text-sm">
+                <option value="51170">The Text Titan I</option>
+                <option value="356425">The Text Titan I ter</option>
+                <option value="265149">German Genius</option>
+                <option value="39995">Transkribus Print M1</option>
+            </select>
+        </div>
+        <div class="w-full lg:flex-1 flex flex-col">
+            <h4 class="text-xs md:text-sm mb-1">Multimodales großes Sprachmodell</h4>
+            <select id="multimodal-llm-ocr" class="w-full p-2 border border-gray-300 rounded-md text-xs md:text-sm">
+                <option value="claude-sonnet-4-5-20250929">Claude Sonnet 4.5</option>
+                <option value="gemini-2.5-pro">Gemini 2.5 Pro</option>
+                <option value="gemini-3-pro-preview">Gemini 3 Pro Preview</option>
+                <option value="gpt-5.2">GPT-5.2</option>
+            </select>
+        </div>
+        <div class="w-full lg:flex-1 flex flex-col">
+            <h4 class="text-xs md:text-sm mb-1">Temperature</h4>
+            <div class="flex gap-2">
+                <select id="temperature-ocr" class="p-2 border border-gray-300 rounded-md text-xs md:text-sm">
+                    <option value="0.0">0.0</option>
+                    <option value="0.1">0.1</option>
+                    <option value="0.2">0.2</option>
+                    <option value="0.3">0.3</option>
+                    <option value="0.4">0.4</option>
+                    <option value="0.5">0.5</option>
+                    <option value="0.6">0.6</option>
+                    <option value="0.7">0.7</option>
+                    <option value="0.8">0.8</option>
+                    <option value="0.9">0.9</option>
+                    <option value="1.0" selected>1.0</option>
+                </select>
+                <button id="start-atr-btn"
+                        class="flex-1 px-2 py-2 md:px-4 bg-gray-300 text-black rounded-md text-xs md:text-sm whitespace-normal leading-tight">
+                    Texterkennung starten
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Image viewer -->
+<div class="w-4/5 mb-5">
+    <!-- Drop zone for image upload -->
+    <div id="drop-zone"
+         class="w-full h-96 border-2 border-dotted border-gray-400 flex justify-center relative overflow-hidden">
+        <!-- OpenSeadragon viewer -->
+        <div id="openseadragon-viewer" class="absolute inset-0 w-full h-full"></div>
+
+        <!-- Page Navigation Buttons -->
+        <div id="page-navigation" class="absolute bottom-2 left-2 flex gap-1" style="display: none; z-index: 1000;">
+            <button id="prev-page-btn"
+                    class="openseadragon-button w-8 h-8 bg-white bg-opacity-70 border-0 rounded flex items-center justify-center cursor-pointer"
+                    style="padding: 4px;"
+                    title="Vorherige Seite">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+            </button>
+            <button id="next-page-btn"
+                    class="openseadragon-button w-8 h-8 bg-white bg-opacity-70 border-0 rounded flex items-center justify-center cursor-pointer"
+                    style="padding: 4px;"
+                    title="Nächste Seite">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Placeholder shown when no image is loaded -->
+        <div id="no-image-placeholder"
+             class="absolute inset-0 flex flex-col items-center justify-center text-gray-500">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mb-2" fill="none" viewBox="0 0 24 24"
+                 stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+            </svg>
+            <p>Bild(er) hier ablegen</p>
+        </div>
+        <!-- Hidden file input -->
+        <input type="file" id="file-input" class="hidden" accept="image/*" multiple>
+    </div>
+</div>
+
+<!-- Text comparison with CodeMirror -->
+<div id="comparison-section" class="w-4/5 mb-5">
+    <!-- Dropdown selectors for comparison panels -->
+    <div class="flex flex-wrap justify-center mb-5 gap-4">
+        <div class="flex flex-col items-center">
+            <p class="mb-2 font-semibold text-sm md:text-base">Linke Ansicht</p>
+            <div class="flex gap-2 md:gap-4">
+                <button id="copy-left-btn" title="Linken Text kopieren"
+                        class="px-2 py-2 md:px-4 bg-gray-300 rounded-md flex items-center justify-center shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"
+                         aria-label="Linken Text in die Zwischenablage kopieren">
+                        <path d="M8 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z"></path>
+                        <path d="M6 3a2 2 0 00-2 2v11a2 2 0 002 2h8a2 2 0 002-2V5a2 2 0 00-2-2 3 3 0 01-3 3H9a3 3 0 01-3-3z"></path>
+                    </svg>
+                </button>
+                <select id="dropdown-compare-left" class="p-2 border border-gray-300 rounded-md text-xs md:text-sm">
+                    <option value="transkribus">Transkribus</option>
+                    <option value="multimodal-model">Multimodales Sprachmodell</option>
+                    <option value="merged">Transkribus + Multimodales Sprachmodell</option>
+                    <option value="user-version-1">Eigene Version I</option>
+                    <option value="user-version-2">Eigene Version II</option>
+                </select>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="mb-2 font-semibold text-sm md:text-base">Rechte Ansicht</p>
+            <div class="flex gap-2 md:gap-4">
+                <select id="dropdown-compare-right" class="p-2 border border-gray-300 rounded-md text-xs md:text-sm">
+                    <option value="transkribus">Transkribus</option>
+                    <option value="multimodal-model">Multimodales Sprachmodell</option>
+                    <option value="merged" selected>Transkribus + Multimodales Sprachmodell</option>
+                    <option value="user-version-1">Eigene Version I</option>
+                    <option value="user-version-2">Eigene Version II</option>
+                </select>
+                <button id="copy-right-btn" title="Rechten Text kopieren"
+                        class="px-2 py-2 md:px-4 bg-gray-300 rounded-md flex items-center justify-center shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"
+                         aria-label="Rechten Text in die Zwischenablage kopieren">
+                        <path d="M8 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z"></path>
+                        <path d="M6 3a2 2 0 00-2 2v11a2 2 0 002 2h8a2 2 0 002-2V5a2 2 0 00-2-2 3 3 0 01-3 3H9a3 3 0 01-3-3z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Custom CodeMirror Comparison Windows -->
+    <div class="w-full h-96 mb-5 flex gap-2">
+        <!-- Left Editor Window -->
+        <div class="flex-1 h-full border-2 border-gray-400 overflow-hidden">
+            <textarea id="codemirror-left"></textarea>
+        </div>
+
+        <!-- Compact vertical control panel between windows -->
+        <div class="flex flex-col items-center justify-center gap-2 px-2">
+            <!-- Navigation buttons (blue) -->
+            <button id="prev-diff-btn"
+                    class="w-9 h-9 bg-blue-500 text-white rounded-md hover:bg-blue-600 disabled:bg-gray-300 disabled:cursor-not-allowed flex items-center justify-center shadow-sm"
+                    title="Vorheriger Unterschied">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                          d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+                          clip-rule="evenodd"/>
+                </svg>
+            </button>
+
+            <button id="next-diff-btn"
+                    class="w-9 h-9 bg-blue-500 text-white rounded-md hover:bg-blue-600 disabled:bg-gray-300 disabled:cursor-not-allowed flex items-center justify-center shadow-sm"
+                    title="Nächster Unterschied">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                          clip-rule="evenodd"/>
+                </svg>
+            </button>
+
+            <!-- Counter -->
+            <span id="diff-counter"
+                  class="px-2 py-1 text-xs text-gray-700 font-semibold bg-white rounded border border-gray-300 whitespace-nowrap">0/0</span>
+
+            <!-- Copy buttons -->
+            <button id="copy-to-left-btn"
+                    class="w-9 h-9 bg-green-500 text-white rounded-md hover:bg-green-600 disabled:bg-gray-300 disabled:cursor-not-allowed flex items-center justify-center shadow-sm"
+                    title="Nach links kopieren">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                          d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                          clip-rule="evenodd"/>
+                </svg>
+            </button>
+
+            <button id="copy-to-right-btn"
+                    class="w-9 h-9 bg-red-500 text-white rounded-md hover:bg-red-600 disabled:bg-gray-300 disabled:cursor-not-allowed flex items-center justify-center shadow-sm"
+                    title="Nach rechts kopieren">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                          d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                          clip-rule="evenodd"/>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Right Editor Window -->
+        <div class="flex-1 h-full border-2 border-gray-400 overflow-hidden">
+            <textarea id="codemirror-right"></textarea>
+        </div>
+    </div>
+</div>
+
+<!-- TEI generation section -->
+<div class="w-4/5 mb-5">
+    <div class="mb-3">
+        <h3 class="mb-2 font-semibold">TEI-XML Erstellung</h3>
+        <div class="flex flex-wrap gap-2">
+            <!-- Source text version selector -->
+            <div class="flex-none w-full lg:w-auto">
+                <h4 class="text-xs md:text-sm mb-1">Textgrundlage</h4>
+                <select id="version-for-tei" class="w-full p-2 border border-gray-300 rounded-md text-xs md:text-sm">
+                    <option value="user-version-1" selected>Eigene Version I</option>
+                    <option value="user-version-2">Eigene Version II</option>
+                    <option value="merged">Transkribus + Multimodales Sprachmodell</option>
+                </select>
+            </div>
+            <!-- LLM and prompt selection for TEI generation -->
+            <div class="flex-none w-full lg:w-auto">
+                <h4 class="text-xs md:text-sm mb-1">LLM für TEI</h4>
+                <select id="multimodal-llm-tei" class="w-full p-2 border border-gray-300 rounded-md text-xs md:text-sm">
+                    <option value="claude-sonnet-4-5-20250929">Claude Sonnet 4.5</option>
+                    <option value="gemini-2.5-pro">Gemini 2.5 Pro</option>
+                    <option value="gemini-3-pro-preview">Gemini 3 Pro Preview</option>
+                    <option value="gpt-5.2">GPT-5.2</option>
+                </select>
+            </div>
+
+            <!-- Prompt type selector, including custom prompt option -->
+            <div x-data="{ customPrompt: false, customPromptText: '' }" class="relative flex-none w-full lg:w-auto">
+                <h4 class="text-xs md:text-sm mb-1">Prompt-Typ</h4>
+                <select id="prompt-transformation-tei"
+                        class="p-2 border border-gray-300 rounded-md w-full text-xs md:text-sm"
+                        x-bind:value="mode === 'RA' ? 'prompt-tei-ra' : 'prompt-tei-gl'"
+                        x-on:change="customPrompt = $event.target.value === 'prompt-tei-custom'">
+                    <option value="prompt-tei-ra">Prompt Briefe an Goethe</option>
+                    <option value="prompt-tei-gl">Prompt Goethes Lyrik</option>
+                    <option value="prompt-tei-custom">Eigenes Prompt</option>
+                </select>
+
+                <div x-show="customPrompt" class="mt-2 absolute w-64 z-10">
+                    <textarea x-model="customPromptText"
+                              id="custom-prompt-text"
+                              class="w-full p-2 border border-gray-300 rounded-md shadow-lg bg-white text-xs md:text-sm"
+                              placeholder="Prompt hier eingeben – Bild und Text werden automatisch ergänzt."></textarea>
+                </div>
+            </div>
+            <!-- TEI generation action buttons -->
+            <div class="flex items-end gap-2 flex-wrap w-full">
+                <div class="flex flex-col flex-none w-full lg:w-auto">
+                    <h4 class="text-xs md:text-sm mb-1">Temperature</h4>
+                    <select id="temperature-tei"
+                            class="w-full min-h-10 p-2 border border-gray-300 rounded-md text-xs md:text-sm">
+                        <option value="0.0">0.0</option>
+                        <option value="0.1">0.1</option>
+                        <option value="0.2">0.2</option>
+                        <option value="0.3">0.3</option>
+                        <option value="0.4">0.4</option>
+                        <option value="0.5">0.5</option>
+                        <option value="0.6">0.6</option>
+                        <option value="0.7">0.7</option>
+                        <option value="0.8">0.8</option>
+                        <option value="0.9">0.9</option>
+                        <option value="1.0" selected>1.0</option>
+                    </select>
+                </div>
+                <button id="create-tei-btn"
+                        class="flex-none w-full lg:w-auto min-h-10 px-3 py-2 md:px-4 bg-gray-300 text-black rounded-md text-xs md:text-sm whitespace-nowrap">
+                    Erstelle TEI-XML
+                </button>
+                <button id="check-content-btn"
+                        class="flex-none w-full lg:w-auto min-h-10 px-3 py-2 md:px-4 bg-gray-300 text-black rounded-md text-xs md:text-sm whitespace-nowrap">
+                    Inhalt vergleichen
+                </button>
+                <button id="toggle-comparison-btn"
+                        class="flex-none w-full lg:w-auto min-h-10 px-3 py-2 md:px-4 bg-gray-300 text-black rounded-md text-xs md:text-sm whitespace-nowrap">
+                    Vergleichsansicht ausblenden
+                </button>
+                <button id="copy-result-btn" title="TEI-XML kopieren"
+                        class="flex-none w-full lg:w-auto min-h-10 px-3 py-2 md:px-4 bg-gray-300 rounded-md flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"
+                         aria-label="Fertigen Text in die Zwischenablage kopieren">
+                        <path d="M8 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z"></path>
+                        <path d="M6 3a2 2 0 00-2 2v11a2 2 0 002 2h8a2 2 0 002-2V5a2 2 0 00-2-2 3 3 0 01-3 3H9a3 3 0 01-3-3z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Output panels: TEI-XML result and combined text -->
+    <div class="flex gap-2">
+        <div class="flex-1">
+            <h4 class="text-sm mb-1 font-semibold">TEI-XML</h4>
+            <textarea id="tei-text" class="w-full h-96 border-2 border-gray-400 resize-none"></textarea>
+        </div>
+        <div class="flex-1">
+            <h4 class="text-sm mb-1 font-semibold">Kombinierter Text (alle Seiten)</h4>
+            <textarea id="combined-text" class="w-full h-96 border-2 border-gray-400 resize-none"></textarea>
+        </div>
+    </div>
+</div>
+<!-- OpenSeadragon image viewer -->
+<script src="{% static 'js/openseadragon-4.0.0.min.js' %}" defer></script>
+<!-- CodeMirror 5 -->
+<script src="{% static 'js/codemirror-5.65.20.min.js' %}" defer></script>
+<script src="{% static 'js/diff_match_patch-20121119.js' %}" defer></script>
+<script src="{% static 'js/codemirror-5.65.20-merge.min.js' %}" defer></script>
+<!-- Application logic -->
+<script src="{% static 'js/main.js' %}" defer></script>
+</body>
+</html>

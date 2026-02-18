@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?ra-sorting-number bd="1" n="2820"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ra282">
+<text  xml:id="ra282_source">
+  <front>
+<div type="address"><note type ="editorial">hat keine Adresse, ist geprüft</note>
+</div>
+</front>
+<body>
+<div type="letter">
+<div type="writingSession" n="1">  
+<pb n="1" facs="ra:digitalisate#282/1382"/>
+<opener>
+<lb/><dateline><placeName>Frascati</placeName> am <date when="1788-06-06">6<hi rendition="#sup">t</hi> <hi rendition="#latin">Jun</hi> 1788.</date></dateline>
+</opener>
+<lb/>
+<p>
+<lb/>Wie unvermuthet und wie unerwünscht war
+<lb/>mir ein Theil des Inhalts <abbr>Ew:</abbr> Hochwohlgebohrnen ge<g ref="#typoHyphen"/>
+<lb break="no"/>neigtesten Zeilen vom 24 <hi rendition="#latin">May</hi> woselbst meine
+<lb/>durch Ihre freundschaftliche Gegenwart geheiligte
+<lb/>Zimmer, jeder Ihrer bey einsamen Spaziergängen wieder
+<lb/>aufgesuchte Fußstapfen ehemals bey Sonnen und
+<lb/>Mondschein gemeinschaftlich betretenen lustwege
+<lb/>mich in Ihre daselbst genoßene lehrreiche Ge<g ref="#typoHyphen"/>
+<lb break="no"/>sellschaft zurücktäuschte, und an jedem Posttage
+<lb/>Antwort auf meinen und unserer theuren
+<lb/>Freundin etwa am 10 oder 14 <hi rendition="#latin">May</hi> von hier nach
+<lb/>Mayland abgesandten Briefe verhoffen lies.
+</p>
+<p>
+<lb/>Diese kam gestern, unter einer Menge un
+<lb/>erwarteter Briefe an ward begierig zuerst
+<lb/>erbrochen, und raubte mir gleich bey Durchlesung
+<lb/>der ersten Zeilen alle meiner verhofte Freuden
+<lb/>indem Dieselbigen mir Ihre Befremdung über
+<lb/>unsere daselbst nicht angetroffene Antworten
+<lb/>auf Dero aus Florentz an uns geschriebenen
+<lb/>Briefe &#x007C;: die ich doch an oberwehnten mir erin<g ref="#typoHyphen"/>
+<lb break="no"/>nerlichen Tagen von hier abgeschicket und dem
+<lb/><hi rendition="#latin">Sig: Giuseppe Tanzi</hi> Ihrem von unsererer Freun<g ref="#typoHyphen"/>
+<lb break="no"/>din mir angezeigte <hi rendition="#latin">Banquier</hi> empfohlen hatte :&#x007C;
+<lb/>zu erkennen gaben; wie vielen freundschaftlichen
+<lb/>Antheil wird sie nicht an dieser meiner Krän<g ref="#typoHyphen"/>
+<lb break="no"/>kung nehmen, indem ich besorge daß während
+<lb/>dem Ausbleiben dieser von uns erwarteten Ant
+<lb break="no"/>worten
+<pb n="2" facs="ra:digitalisate#282/1383"/>
+<lb/><abbr>Ew:</abbr> <abbr>Hochwohlgeb<g ref="#typoSuspension"/>.</abbr> sie oder mich der Unterlaßung
+<lb/>unserer einem so Theuren Freunde schuldigen
+<lb/>Pflichten hätten fahig halten können.
+</p>
+<p>
+<lb/>Am 10<hi rendition="#sup">ten</hi> dieses gehe ich wieder nach Rom zu<g ref="#typoHyphen"/>
+<lb break="no"/>rück und werde gewiß nach Uberreichung und Durchlesung Ihrer
+<lb/>Zeilen, in den Augen unserer Freundin nicht die
+<lb/>frohen Blicke gewahr werden, mit welchen sie
+<lb/>mir sonst das Vergnügen der von Ihnen er<g ref="#typoHyphen"/>
+<lb break="no"/>haltenen Briefe mitzutheilen gewohnt war.
+<lb/>Gemeinschaftlich werden wir so dann zu
+<lb/>unserem Trost überlegen wie wir un<g ref="#typoHyphen"/>
+<lb break="no"/>sere verwirrten oder irgendwo verspäte<g ref="#typoHyphen"/>
+<lb break="no"/>ten Briefen wieder auf den geraden Weg
+<lb/>zu Ihnen verhelfen könnten, unter hundert
+<lb/>und mehr Briefen die ich jahrlich schreibe er<g ref="#typoHyphen"/>
+<lb break="no"/>innere ich mich kaum daß einige wircklich
+<lb/>verlohren gegangen, und der innliegende Schutz
+<lb/>Engel wird diesmahl gewiß auch meinen
+<lb/>begleitet und Ihnen beyde irgendwo unter<g ref="#typoHyphen"/>
+<lb break="no"/>wegens oder doch endlich in Weimar über<g ref="#typoHyphen"/>
+<lb break="no"/>liefert haben Wenigstens soll <hi rendition="#latin"><abbr>Sig</abbr> Carlo Riggi</hi>
+<lb/>dazu bey seinem Freunde H<g ref="#typoSuspension"/> <hi rendition="#latin">Tanzi</hi> alle
+<lb/>mogliche Nachsuchung und fernere Besorgung
+<lb/>veranlaßen.
+</p>
+<p>
+<lb/>Ich meines Theils hatte <abbr>Ew:</abbr> Hochwohlgebohren
+<lb/>in erwehnter meiner Antwort nach Mayland
+<lb/>in einigen herzlichen Ausdrücken meinen Danck
+<lb/>für
+<pb n="3" facs="ra:digitalisate#282/1384"/>
+<lb/>das Viele Liebe und Gute so Sie hier auch an mir gethan
+<lb/>Mein Leid über Ihre Entweichung und meine Hof
+<lb/>nung zur erwünschten Wiederkehr /:die Sie nicht lei<g ref="#typoHyphen"/>
+<lb break="no"/>dig machen werden:/ zu erkennen gegeben und
+<lb/>sodann von den zur damahligen Besorgung Ihrer
+<lb/>Aufträge gemachten Anstalten deren ich mich itzo
+<lb/>nicht namentlich wieder besinne, wie auch von
+<lb/>dem Empfange einiger an Sie eingelaufenen Summen &#x2013;
+<lb/>&#x2013; doch meine wie ich eben aus einer in meiner
+<lb/>Brieftasche befindlichen Note ersehe diese Summen
+<lb/>kamen verschiedene Tage nach Absendung mei-
+<lb/>nes Briefes nämlich am 21 Mäy für <abbr>Sr</abbr> <abbr>Hfst<g ref="#typoSuspension"/>.</abbr>
+<lb/><abbr>Durch<g ref="#typoSuspension"/></abbr> des Herzogs von <hi rendition="#latin">Weimar</hi> Rechnung zahlte mir
+<lb/>der hiesige <hi rendition="#latin">Banquier Ravacini</hi> aus zweyhundert Scudi
+<lb/>und <abbr>d<g ref="#typoSuspension"/></abbr> 28 May erhielt ich aus der Banck <hi rendition="#latin">Belloni</hi> fü
+<lb/>H<g ref="#typoSuspension"/> <hi rendition="#latin">Seydels</hi> aus Weymar Rechnung Vierhundert
+<lb/>Scudi so daß Dero hiesige <hi rendition="#latin">Casse</hi> itzo 600 Scudi
+<lb/>starck ist welche nach der hinterlaßenen
+<lb/>Vorschrift verwalten werde. Das übri<g ref="#typoHyphen"/>
+<lb break="no"/>ge von Rom woselbst ich am 10<hi rendition="#sup">ten</hi> dieses eintref<g ref="#typoHyphen"/>
+<lb break="no"/>fen werde 
+<lb/><milestone unit="section" rendition="#hr"/>.
+</p>
+</div>
+<div type="writingSession" n="2">
+<opener> 
+<lb/><dateline><placeName><hi rendition="#latin">Rom</hi></placeName> <abbr>d<g ref="#typoSuspension"/></abbr> <date when="1788-06-11">11<hi rendition="#sup">ten</hi> <hi rendition="#latin">Jun</hi>:</date></dateline>
+</opener>
+<p>
+<lb/>Gestern Abends langte ich versprochener maaßen
+<lb/>hier an, übergab den in einen Blumen Busch ver<g ref="#typoHyphen"/>
+<lb break="no"/>wickelten Brief unserer Freundin, um ihr den
+<lb/>zugleich angekündigten unterbrochenen Lauf un
+<lb break="no"/>sers
+<pb n="4" facs="ra:digitalisate#282/1385"/>
+<lb/>Briefe nach Mäyland ihr etwas erträglicher
+<lb/>zu machen, Zu einiger Dero Schadloshaltung des
+<lb/>etwa besorgten Verlustes Ihrer damahli<g ref="#typoHyphen"/>
+<lb break="no"/>gen Antwort übersandte Sie mir die
+<lb/>Beylage welcher ich nebst meinen Briefe
+<lb/>einen glücklicheren Lauf nach Weimar
+<lb/>als die vorigen nach <hi rendition="#latin">Mayland</hi> gehabt
+<lb/>anwünsche.
+</p>
+<p>
+<lb/><hi rendition="#latin"><abbr>Sig</abbr> Carlo Riggi</hi> empfiehlet sich gantz er<g ref="#typoHyphen"/>
+<lb break="no"/>gebenst und wird bey <hi rendition="#latin">Sig Tanzi</hi> dem er
+<lb/>er heute antworten muß wegen unserer et<g ref="#typoHyphen"/>
+<lb break="no"/>wa liegen gebliebenen Briefe in Mayland
+<lb/>so wie ich hier auf dem Postamt alle Vor<g ref="#typoHyphen"/>
+<lb break="no"/>kehr zur Zurechtweisung derselben machen.
+<lb/>Noch habe weiter nichts erfahren als daß
+<lb/><hi rendition="#latin"><abbr>Sig:</abbr> Abbate Dolce</hi> die beyde Sammlungen
+<lb/>abgegoßener <hi rendition="#latin">Gemmen</hi> fertig hat und mir
+<lb/>Morgen überliefern wird.
+</p>
+<p>
+<lb/>Noch habe weiter keine Befehle wegen
+<lb/>der Herreise Ihro <abbr>Durch<g ref="#typoSuspension"/></abbr> der Herzogin
+<lb/>Mutter von <hi rendition="#latin">Weimar</hi> außer der Ihrigen
+<lb/>erhalten, womit ich für Heute
+<lb/><seg type="closer"><seg type="salute"><abbr>Ew:</abbr> Hochwohlgebohrnen zu geneigter
+<lb/>Erinerrung gehorsamst empfehle</seg></seg>
+</p>
+<closer>
+<lb/><salute>Dero
+<lb/>verbundenster Freund
+<lb/>und Diener</salute> 
+<lb/><signed>Reiffenstein</signed> 
+</closer>
+<postscript n="1">
+<p> 
+<lb/>Raphaels Köpfe werden
+<lb/>hoffentlich wohlerhalten
+<lb/>angekommen seyn 
+</p>
+</postscript>
+</div>
+</div>
+  </body>
+</text>
+</TEI>
