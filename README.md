@@ -41,6 +41,8 @@ pip install -r requirements.txt
 ```env
 SECRET_KEY=your-django-secret-key
 ALLOWED_HOSTS=127.0.0.1
+# Optional: Required when running behind a proxy or with different domain
+# CSRF_TRUSTED_ORIGINS=https://yourdomain.com
 
 # API Keys – one set per project (RA = Briefe an Goethe, GL = Goethes Lyrik)
 ANTHROPIC_KEY_RA=...
