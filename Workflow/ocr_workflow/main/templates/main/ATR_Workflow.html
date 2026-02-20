@@ -19,6 +19,7 @@
 </head>
 
 <body class="flex flex-col items-center justify-center mt-10" x-data="{ mode: 'RA' }">
+{% csrf_token %}
 <input type="hidden" id="mode" x-model="mode">
 <!-- GL/RA mode toggle -->
 <div class="w-4/5 mb-5">
