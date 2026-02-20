@@ -583,7 +583,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const status = data.status;
                 updateStatusWindow(status);
 
-                if (status === 'Process complete') {
+                if (status === 'Verarbeitung abgeschlossen') {
                     stopPolling();
                     reEnableActionButtons();
                     setTimeout(hideStatusWindow, 2000);
