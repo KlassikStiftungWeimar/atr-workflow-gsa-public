@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text xml:id="ra5068_source">
+  <front>
+    <div type="address">
+      <note type="editorial"></note>
+    </div>
+  </front>
+  <body>
+    <div type="letter">
+      <pb n="1"/>
+      <opener>
+        <dateline><lb/><placeName>W.</placeName> den <date when="1802-08-04">4 August
+          1802</date>.</dateline>
+        <salute><lb/><abbr>Ew</abbr> Excellenz</salute>
+      </opener>
+      <p>
+        <lb/>werde ich Herrmanns Metrik übersenden, <lb/>sobald sie fertig ist, <abbr>u</abbr> ich
+        dieselbe erhalte. <lb/>Die neueste Ausgabe von Voß Gedichten befindet <lb/>sich schon auf
+          <abbr>fürst.</abbr> Bibliothek; ein schönes <lb/>Exemplar auf geplättetes Papier, welches
+          <lb/><abbr>Sereniss.</abbr> geschickt hat. Ich glaubte immer, <lb/>er werde auch Voß Homer
+        senden, <abbr>u</abbr> des <lb break="no"/>halb habe ich seine Anschaffung nicht ergirt,
+        <lb/>weil es sonst immer Doubletten giebt. Ich <lb/>will aber denselben bestellen;
+          <abbr>u</abbr> ihr sogleich <lb/>zum Buchbinder schicken. </p>
+      <closer>
+        <salute><lb/>Ich bin <abbr>Ew</abbr> Excellenz <lb/><abbr>unterth.</abbr> Diener</salute>
+        <signed><lb/>Vulpius.</signed>
+      </closer>
+    </div>
+  </body>
+</text>

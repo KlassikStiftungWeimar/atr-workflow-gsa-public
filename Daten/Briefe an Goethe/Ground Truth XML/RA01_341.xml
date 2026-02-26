@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text xml:id="ra374_source">
+  <front>
+    <div type="address">
+      <note type="editorial"/>
+    </div>
+  </front>
+  <body>
+    <div type="letter">
+      <pb n="1" facs="ra:digitalisate#374/3494"/>
+      <opener>
+        <lb/>
+        <salute>
+          <hi rendition="#latin">
+            <abbr>P: M:</abbr>
+          </hi>
+        </salute>
+      </opener>
+      <p>
+        <lb/>Ueber 2 Kisten Gipswerk <abbr>gez:</abbr>
+        <hi rendition="#latin"><abbr>B.G.</abbr>
+          <abbr>No</abbr></hi> 1 &#x26; 2., die <lb/>uns von <abbr>d</abbr>
+        <abbr>H.</abbr>
+        <hi rendition="#latin">Otto Franck &#x26; Cn</hi> in <hi rendition="#latin">Livorno</hi>
+        durch den <lb/><abbr>Schrfr:</abbr>
+        <hi rendition="#latin"><abbr>Joh:</abbr>
+          <abbr>Dan:</abbr> Reimers</hi> (wovon man hier die <lb/>Nachricht hat, daß er in einem
+        englischen Ha <lb break="no"/>fen eingelaufen sey) zukommen werden, er <lb break="no"
+        />bitten wir uns, ihrer Weiterversendung, <lb/>gegen Erstattung unsrer und der Auslagen
+        <lb/>der Absender, welche letztere mit <abbr>f</abbr> 8: 10: auf <lb/>uns nachgenommen sind,
+        wegen, gefälligen <lb/>Bericht. <placeName>Hamburg</placeName>, <date when="1789-02-11">
+          <abbr>d:</abbr> 11: <abbr>Febr:</abbr> 1789.</date>
+      </p>
+      <closer>
+        <lb/>
+        <signed>Jacob<abbr>Hinr:</abbr>Hudtwalcker &#x26; Sohn</signed>
+      </closer>
+    </div>
+    <div type="address">
+      <p>
+        <lb/>An den Herrn Baron <hi rendition="#latin">Göthe</hi>, Sr: Durchlaucht, des Herzogs von
+        <lb/>Sachsen-Weimar, geheimer Raht, in <hi rendition="#latin">Weimar</hi>. </p>
+    </div>
+  </body>
+</text>

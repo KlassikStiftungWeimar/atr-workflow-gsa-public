@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text xml:id="ra4864_source">
+  <front>
+    <div type="address">
+      <note type="editorial"/>
+    </div>
+  </front>
+  <body>
+    <div type="letter">
+      <pb n="1" facs="ra:digitalisate#4864/25594"/>
+      <opener>
+        <dateline>
+          <lb/>
+          <date when="1802-03-17"><abbr>Febr.</abbr> 1802.</date>
+        </dateline>
+      </opener>
+      <p>
+        <lb/>Bestens danke ich für mittheilung der <lb/>beylage. Gewis hat diese Schrift bedeutende
+        <lb/>verdienste, da aber daß gerichtete <hi rendition="#latin">sujet</hi>
+        <lb/>nur weniger abwechslung in seiner bearbei <lb break="no"/>tung fähig ist, so war die
+          <abbr>natür.</abbr> folge daß <lb/>viele überflüßige momente eintreten <lb/>mußten,
+          <abbr>u.</abbr> mancherley überflüßiges, gedehntes <lb/>langweiliges in die rede kam. Im
+        ganzen ist <lb/>daß <hi rendition="#latin">opus</hi> wohl etwas sehr laulicht,
+          <abbr>u.</abbr> die <lb/>schwachen häufigen lückenbüßer tödten <lb/>dasjenige was ans
+        feurige sich hie <abbr>u.</abbr> da nähert. <lb/>die Sprache ist, dünkt mir, meistens sehr
+        hart <lb/><abbr>u.</abbr> bestärkt mich in dem glauben, daß der <lb/><hi rendition="#latin"
+          >Genus</hi> dieser jamben äuserst gefährlich ist, <lb/>indem bey einem autor der nicht von
+        der Natur <lb/>daß organ erhalten hat diese versart <lb/>mit eleganz aus seiner feder
+        fließen zu laßen, <lb/>dieses <hi rendition="#latin">metrum</hi> leichte in höckrige, so zu
+        sagen <lb/>pedantische prosa ausartet. </p>
+      <closer>
+        <signed><lb/>C.A.</signed>
+      </closer>
+    </div>
+  </body>
+</text>

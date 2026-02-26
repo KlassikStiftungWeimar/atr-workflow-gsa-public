@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+    <front>
+        <div type="address">
+            <note type="editorial"/>
+        </div>
+    </front>
+    <body>
+        <div type="letter">
+            <pb n="1" facs="I"/>
+            <opener>
+                <salute><lb/>An <hi rendition="#latin">Johann Wolfgang</hi> Göthe.</salute>
+                <dateline><lb/>den <date when="1789-08-28">28. <hi rendition="#latin">Aug</hi>.
+                        1789.</date></dateline>
+            </opener>
+            <p>
+                <lb/><hi rendition="#latin">Sanct</hi> Johannes der zweite (den ersten erschlugen
+                die Mörder, <lb/>ob er gleich sterbend noch: liebt euch, ihr Kinderchen! sprach;)
+                <lb/>Also <hi rendition="#latin">Joannes Secundus Evangelista</hi> vertraut Dir
+                <lb/>aus <hi rendition="#latin">Elysium</hi> heut küßend den holdesten Gruß
+                <lb/>Bruder, <hi rendition="#latin">Tertie</hi>, spricht er, Du nimmst an Weisheit
+                und Alter, <lb/>nimmst an der Grazie zu, wie sie den Göttern gefällt, <lb/>Und den
+                Menschen. Wohlan! Statt meiner weih'ich Dich heute; <lb/>krönen am Ende des Buchs
+                wird Dich ein andrer, ein Gott. </p>
+        </div>
+    </body>
+</text>

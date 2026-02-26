@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+    <front>
+        <div type="address">
+            <note type="editorial"/>
+        </div>
+    </front>
+    <body>
+        <div type="letter">
+            <pb n="1" facs="Nismes_Goethe_1801.jpg"/>
+            <opener>
+                <dateline><lb/><placeName>Nismes</placeName> Le <date when="1801-10-24">1<hi
+                            rendition="#sup">r</hi> Brumaire an 10 <lb/>de la rep. franc. 24 octobre
+                        1801</date></dateline>
+                <salute><lb/>Monsieur</salute>
+            </opener>
+            <p>
+                <lb/>Les eminences services que vous avez rendus aux lettres &amp; aux Sciences
+                <lb/>vous ont acquis des longtems la reconnaissance de tous ceux qui les
+                <lb/>cultivent le Lycée s'empresse des ses premiers pas de vous donner <lb/>un
+                temoignage public de sa haute estime en vous offrant une place <lb/>parmi ses
+                associés Il se flatte que vous voudriez bien l'accepter <lb/>&amp; j'ai l'honneur de
+                vous adresser le diplôme qu'il vous a unanimement </p>
+            <closer>
+                <salute><lb/><abbr>Mons<hi rendition="#sup">r</hi></abbr> Goethe a
+                        <placeName>Weymar</placeName>.</salute>
+            </closer>
+        </div>
+    </body>
+</text>

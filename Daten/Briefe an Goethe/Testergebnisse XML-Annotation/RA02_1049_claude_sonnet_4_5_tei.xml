@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+    <front>
+        <div type="address">
+            <note type="editorial"></note>
+        </div>
+    </front>
+    <body>
+        <div type="letter">
+            <pb n="1"/>
+            <opener>
+                <dateline>
+                    <lb/><placeName>Leipzig</placeName> <abbr>p</abbr>
+                    <date when="1797-12-12">12ten <abbr>Xber</abbr> 1797</date>
+                </dateline>
+            </opener>
+            <p>
+                <lb/>Die von Ihnen in der <abbr>N.</abbr> <abbr>J.</abbr> Messe
+                <lb/><abbr>d.</abbr> <abbr>J.</abbr> erhaltenen 15<abbr>rh</abbr> – für einen
+                <lb/>Himmels-Globus erfolgen nach Ihrem
+                <lb/>Willen hiebei zurück. – Die darüber
+                <lb/>von mir ausgestellte Quittung erwar
+                <lb break="no"/>te ich dagegen. – Uebrigens ist
+                <lb/>es mir sehr angenehm, daß Sie
+                <lb/>sich in Nürnberg selbst überzeugt
+                <lb/>haben, daß die Schuld der seit
+                <lb break="no"/>herigen Nicht-Erfolgung des Globen
+                <lb/>nicht an mir gelegen hat. –
+            </p>
+            <closer>
+                <salute>
+                    <lb/>Ihrem ferneren gütigen Wohlwollen
+                    <lb/>empfehle ich mich bestens
+                </salute>
+                <signed>
+                    <lb/>Gerhard Fleischer <abbr>d.</abbr> <abbr>J.</abbr>
+                </signed>
+            </closer>
+        </div>
+    </body>
+</text>

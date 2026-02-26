@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+<front>
+<div type="address"><note type="editorial"></note></div>
+</front>
+<body>
+<div type="letter">
+<pb n="1" facs="Image name" />
+<opener>
+<salute><lb/>Monsieur</salute>
+<dateline><lb/><placeName>Rome</placeName> 20. <date when="1789-01-20">Janv<hi rendition="#latin">r</hi> 1789</date></dateline>
+</opener>
+<p>
+<lb/>La Caissette contenante des semences des fleurs a été
+<lb/>remisé depuis la semaine passé a la Maison de <abbr>Mons</abbr>
+<lb/>Le Conseiller <hi rendition="#latin">Reiffenstein</hi>, lui ayant ecrit a <hi rendition="#latin">Naples</hi>,
+<lb/>ou il est actuellement avec <abbr>S. A.</abbr> <abbr>Mad<hi rendition="#latin">e</hi></abbr> La Duchesse
+<lb/>de Saxe <hi rendition="#latin">Weimar</hi>, afin qu'il en donne ses dispositions.
+<lb/>Les petits fraix ont été chargé au votre compte.
+<lb/>Vous etes aussi obligeant que vous vous souvenez de moi, &amp;
+<lb/>de ma soeur. Elle est mariée depuis Juillet passé au
+<lb/>fils de <abbr>Mons<hi rendition="#latin">r</hi>.</abbr> <hi rendition="#latin">Volpato</hi>, &amp; elle est tres contente autant
+<lb/>que le peut etre dans le comencement de sa grossesse
+<lb/>Elle a reçu avec reconnoissance votre souvenir.
+<lb/>Si vous me trouvez bon a quelque chose disposez librement
+<lb/>de celui qui avec la plus parfaite consideration &amp; respect
+<lb/>a l'honneur d'etre tres sincerement
+</p>
+<closer>
+<salute><lb/>Votre tres <abbr>humb<hi rendition="#latin">e</hi></abbr> &amp; <abbr>Ob<hi rendition="#latin">t</hi></abbr> <abbr>Serv<hi rendition="#latin">r</hi></abbr></salute>
+<lb/>Monsieur
+<signed><hi rendition="#latin">Charles Amb<hi rendition="#latin">r</hi>. Riggi</hi></signed>
+</closer>
+</div>
+</body>
+</text>

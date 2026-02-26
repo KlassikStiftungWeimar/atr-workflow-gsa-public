@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text xml:id="ra2508_source">
+  <front>
+    <div type="address">
+      <note type="editorial"/>
+    </div>
+  </front>
+  <body>
+    <div type="letter">
+      <pb n="1" facs="ra:digitalisate#2508/4268"/>
+      <opener>
+        <salute>
+          <lb/>
+          <hi rendition="#latin">Monsieur Le Baron</hi>
+        </salute>
+      </opener>
+      <p>
+        <lb/>
+        <hi rendition="#latin">Je profite de La permission que Vous m'avez donné <lb/>de Vous
+          adresser Le Memoire de <abbr>Mr.</abbr>
+          <abbr>v.</abbr> Hausen. <lb/>et La Lettre pour <abbr>Mr
+          </abbr> le Conseiller privé Voigt, dans <lb/>Laquelle je L'ai instruit, de ce que Le
+          Suppliant ne <lb/>demand absolument que Le caractere de Chambellan <lb/>&amp; que j'avais
+          eu L'honneur de Vous en prevenir <lb/>Monsieur Le Baron – J'ôse y ajouter La <lb/>demande
+          tres humble de vouloir bien accorder <lb/>à L'arrivant à cette occasion Votre haute
+          protection <lb/>et bienveillance. –</hi>
+        <hi rendition="#latin">J'en auroi même Les obliga <lb break="no"/>tions Les plus parfaites à
+          Vous Monsieur, et <lb/>je mettrai a tâche de Vous prouver La réalité des
+          <lb/>Sentiments</hi>
+      </p>
+    </div>
+  </body>
+</text>

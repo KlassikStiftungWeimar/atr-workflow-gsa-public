@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+  <front>
+    <div type="address">
+      <note type="editorial">
+        <lb/>a S. A. S.
+        <lb/>Monsieur le Duc Regnant
+        <lb/>de Saxe Weimar,
+        <lb/>Weimar
+      </note>
+    </div>
+  </front>
+  <body>
+    <div type="letter">
+      <pb n="1" facs="Image name" />
+      <opener>
+        <salute><lb/>Monsieur</salute>
+      </opener>
+      <p>
+        <lb/>J'apprens avec un interêt bien senti que L'accession
+        <lb/>de l'Electeur de Saxe, dont Elle me fait part
+        <lb/>achève d'éloigner les maux de la Guerre
+        <lb/>de Ses etats et de ceux de V. A. S. Rien
+        <lb/>ne sauroit être plus conforme à mes desirs,
+        <lb/>ansi qu'à l'interêt commun; je saisirai
+        <lb/>toujours avec empressement toutes les occasions
+        <lb/>d'être utile à V. A. S. et de repondre
+        <lb/>à la confiance qu' Elle et les autres Princes
+        <lb/>d'Allemagne me temoigne; c'est avec
+        <lb/>ces sentimens que je ne cesserai d'être,
+        <lb/>Monsieur,
+        <lb/>de V. A. S.
+        <closer>
+          <dateline>
+            <lb/><placeName>Cassel</placeName>
+            <lb/>ce <date when="1796-08-04">4 d'Août 1796</date>
+          </dateline>
+          <salute>
+            <lb/>le très affectionné
+            <lb/>cousin et beau frère
+          </salute>
+          <signed><lb/>Fr Guillaume</signed>
+        </closer>
+      </p>
+    </div>
+  </body>
+</text>

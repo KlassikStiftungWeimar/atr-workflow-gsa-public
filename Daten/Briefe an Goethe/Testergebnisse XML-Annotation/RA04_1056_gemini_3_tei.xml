@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+    <front>
+        <div type="address">
+            <note type="editorial"/>
+        </div>
+    </front>
+    <body>
+        <div type="letter">
+            <pb n="1" facs="#f0001"/>
+            <opener>
+                <salute><lb/>Gnädigster Herr!</salute>
+            </opener>
+            <p>
+                <lb/>Dem Versprechen meines lezten Briefes zufolge, sende ich Euer <lb/>Excellenz
+                hier ehrerbietigst das erwähnte Bild, welches <lb/>bey Absendung des andern Stücks
+                noch nicht trocken <lb/>war. Da es sich über die Zeit der Ausstellung ver <lb
+                    break="no"/>spätet hat, so darf ich wohl keine Beurtheilung desselben
+                <lb/>erwarten. Um jedoch nicht wortbrüchig zu werden, über <lb break="no"/>reiche
+                ich es Euer Excellenz hiermit und bitte, so gering <lb/>die Gabe auch ist, sie als
+                ein Merkmal der Verehrung <lb/>anzunehmen, womit ich bin </p>
+            <closer>
+                <salute><lb/>Euer Excellenz</salute>
+                <dateline><lb/><placeName>Ratzeburg</placeName>
+                    <lb/>d. <date when="1803-10-26">26 <hi rendition="#latin">Octbr</hi>.
+                        1803</date>.</dateline>
+                <signed><lb/>unterthänigster <lb/><hi rendition="#latin">L. Nauwerck</hi></signed>
+            </closer>
+        </div>
+    </body>
+</text>

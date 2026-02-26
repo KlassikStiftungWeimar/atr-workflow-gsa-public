@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+    <front>
+        <div type="address">
+            <note type="editorial"></note>
+        </div>
+    </front>
+    <body>
+        <div type="letter">
+            <pb n="1" facs="Image name"/>
+            <opener>
+                <dateline>
+                    <lb/><placeName>Jena</placeName> Samstag Abends <date when="1794-10-25">d. 25<hi rendition="#latin"><abbr>tn</abbr></hi> 8<hi rendition="#latin"><abbr>ber</abbr></hi> 1794</date>.
+                </dateline>
+            </opener>
+            <p>
+                <lb/>Nun, mein verehrter Herr und Freund,
+                <lb/>bin ich endlich in meiner musenhaften Richte
+                <lb/>und bereit von Montag an, Acht Kollegia
+                <lb/>täglich zu hören und noch obendrein was
+                <lb/>Griechisch zu treiben in einer Privat Stunde
+                <lb/>da ich's doch zum Homer nöthig habe.
+                <lb/>Hier ist meine Tags-Ordnung:
+                <lb/><hi rendition="#latin">Morg</hi> 6-9 – Für mich. – <hi rendition="#latin">aurora musio amica</hi>.
+                <lb/>9-10. <hi rendition="#latin">aesthetik</hi> bey <hi rendition="#latin">Schütz</hi>.
+                <lb/>10-11. Natur-Recht. – " <hi rendition="#latin">Hufeland</hi>.
+                <lb/>11-12. Griechisch.
+                <lb/><hi rendition="#latin">Nachmts</hi> 1-2. Ehe-Recht, <hi rendition="#latin">astronomie &amp; Cicero</hi> } <hi rendition="#latin">H. v. S.</hi>
+                <lb/>2-3. reine Mathematik bey <hi rendition="#latin">Voigt</hi>.
+                <lb/>3-4. <hi rendition="#latin">Logik &amp; theoretische Philos.</hi> bey <hi rendition="#latin">Fichte</hi>.
+                <lb/>4-5. <hi rendition="#latin">Homer</hi> – bey <hi rendition="#latin">Ilgen</hi>.
+                <lb/>5-6. <hi rendition="#latin">Literatur Geschichte</hi> bey <hi rendition="#latin">Schütz</hi>.
+                <lb/>6-7. Staaten Geschichte bey <hi rendition="#latin">Moltman</hi>.
+                <lb/>8-11. Wiederholung. Sams u. Sonntags nochmals.
+            </p>
+        </div>
+    </body>
+</text>

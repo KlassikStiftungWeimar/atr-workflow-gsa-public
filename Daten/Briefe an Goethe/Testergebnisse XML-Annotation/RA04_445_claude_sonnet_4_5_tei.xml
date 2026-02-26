@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+    <front>
+        <div type="address">
+            <note type="editorial"></note>
+        </div>
+    </front>
+    <body>
+        <div type="letter">
+            <pb n="1"/>
+            <opener>
+                <salute>
+                    <lb/>Euer Excellenz
+                </salute>
+            </opener>
+            <p>
+                <lb/>Habe ich am 16ten august eine Andromeda
+                <lb/>zur Concurrenz der preißaufgabe nebst
+                <lb/>einer bunten, und geduschten landschafft
+                <lb/>einzusenden die Ehre gehabt; Da ich
+                <lb/>aber bisjetzo, den, der anzeige nach, zu-
+                <lb/>erwartenten Empfang schein noch nicht
+                <lb/>erhalten habe, so entsteht bey mir, ein
+                <lb/>nicht grundloser zweifel an der richtigen
+                <lb/>PostExpedition des Packets, ich bitte
+                <lb/>dahero Euer Excellenz mich gütigst aus
+                <lb/>dieser Verlegenheit zu ziehen, und den
+                <lb/>versicherungen der schuldigen Hochachtung
+                <lb/>glauben beyzumessen, womit ich zu
+                <lb/>verharren die Ehre habe,
+            </p>
+            <closer>
+                <salute>
+                    <lb/>Euer Excellenz
+                </salute>
+                <signed>
+                    <lb/>unterthänigster Diener
+                    <lb/>J. Jacob Schillinger
+                    <lb/>HofMahler. im <abbr>fürst?</abbr>
+                    <lb/>Hohenloischen.
+                </signed>
+            </closer>
+            <closer>
+                <dateline>
+                    <lb/><placeName>Öhringen</placeName> <abbr>d?</abbr> <date when="1802-10-19">19<hi rendition="#latin">n</hi> 8<hi rendition="#latin">br</hi>.
+                    <lb/>1802.</date>
+                </dateline>
+            </closer>
+        </div>
+    </body>
+</text>

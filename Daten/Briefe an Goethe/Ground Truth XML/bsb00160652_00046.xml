@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text xml:id="ra12609_source">
+<front><div type="address"><note type ="editorial"></note></div></front>
+  <body>
+    <div type="letter">
+        <pb n="1" facs="ra:digitalisate#12609/31131"/>
+        <opener>
+          <dateline><lb/><date when="1804-06-26"><hi rendition="#latin">26 Juny 1804</hi></date></dateline>
+        </opener>
+        <p>
+          <lb/><hi rendition="#latin">Verzeihen sie verehrungs würdiger mann, wenn ich die bitte wage
+          <lb/>mir nur durch einige zeilen anzuzeigen anzuzeigen, ob sie meine am
+          <lb/>19ten April abgesandte zeichnung zu der bewussten medaille erhalten haben,
+          <lb/>wenn nicht so könnte ich da der postschein
+          <lb/>noch gültig ist nachfrage anstellen. Sie sind zu wohl wollend
+          <lb/>als daß sie meine bitte übel nehmen sollten, dieser gedanke
+          <lb/>besiegte auch meine furcht bey Ihnen den vorwurf der unbeschei
+          <lb break="no"/>denheit auf mich zu laden.</hi>
+        </p>
+        <closer>
+         <salute><lb/><hi rendition="#latin">Mein vater empfiehlt sich Ihnen hochachtungsvoll
+          <lb/>mit der innigsten verehrung</hi></salute>
+          <lb/><hi rendition="latin">Verzeihen Verzeihen
+          <lb/>Verzeihen
+          <lb/>Verzeihen
+          <lb/>Verzeihen</hi>
+        </closer>
+    </div>
+  </body>
+</text>

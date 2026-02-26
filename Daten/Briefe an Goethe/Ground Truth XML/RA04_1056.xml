@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text xml:id="ra5796_source">
+  <front>
+   <div type="address"><note type="editorial"></note></div>
+  </front>
+  <body>
+    <div type="letter">
+      <pb n="1" facs="ra:digitalisate#5796/26268"/>
+      <opener>
+        <salute><lb/>Gnädigster Herr!</salute>
+      </opener>
+      <p>
+        <lb/>Dem Versprechen meines lezten Briefes zufolge, sende ich Euer
+        <lb/>Excellenz hier ehrerbietigst das erwähnte Bild, welches
+        <lb/>bey Absendung des andern Stücks noch nicht trocken
+        <lb/>war. Da es sich über die Zeit der Ausstellung ver
+<lb break="no"/>spätet hat, so darf ich wohl keine Beurtheilung desselben
+        <lb/>erwarten. Um jedoch nicht wortbrüchig zu werden, über
+<lb break="no"/>reiche ich es Euer Excellenz hiermit und bitte, so gering
+        <lb/>die gabe auch ist, sie als ein Merkmal der Verehrung
+        <lb/>anzunehmen, womit ich bin
+      </p>
+      <closer>
+        <salute><lb/>Euer Excellenz
+        <lb/>unterthänigster</salute>
+        <signed><lb/><abbr>L.</abbr> Nauwerck</signed>
+        <dateline><lb/><placeName>Ratzeburg</placeName>
+        <lb/><abbr>d.</abbr> <date when="1803-10-26">26 <abbr>Octbr.</abbr> 1803.</date></dateline>
+      </closer>
+    </div>
+  </body>
+</text>

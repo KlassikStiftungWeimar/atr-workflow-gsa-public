@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+    <front>
+        <div type="address">
+            <note type="editorial"></note>
+        </div>
+    </front>
+    <body>
+        <div type="letter">
+            <pb n="1"/>
+            <p>
+                <lb/>Sie haben mir durch <hi rendition="#latin">Stephani</hi> sagen laßen
+                <lb/>„wen etwas Neues vorfallen sollte möchte
+                <lb/>ich es Ihnen melden" es ist indeßen wenig
+                <lb/>geschehen welches Sie groß Intereßiren könte
+                <lb/>oder was Sie nicht schon vernommen hätten
+                <lb/>des Herzogs <abbr>Drch</abbr>. scheint mit dem was während
+                <lb/>seiner Abwesenheit im Schloß vorgenommen
+                <lb/>worden zufrieden zu seyn auch mußte
+                <lb/>ich auf seinen Befehl <hi rendition="#latin">Hartmanns</hi> Bild wieder
+                <lb/>auspacken &amp; es gefiehl ihm wohl der neu
+                <lb/>angekommene <abbr>Hr.</abbr> <hi rendition="#latin">Rabe</hi> scheint ein ganz
+                <lb/>ordentlicher Mann zu seyn was von seiner
+                <lb/>Kunst &amp; seinem Wißen in Fache der Architektur
+                <lb/>zu halten ist wird sich erst in der Folge zeigen
+                <lb/>hier beygelegt sende ich Ihnen dj gestern
+                <lb/>angekommenen Zeitungen.
+            </p>
+            <closer>
+                <salute>
+                    <lb/>Leben Sie vergnügt &amp; ge<lb break="no"/>nießen der schönen Tage bestens.
+                </salute>
+                <signed>
+                    <lb/>Ihr
+                    <lb/>M.
+                </signed>
+            </closer>
+        </div>
+    </body>
+</text>

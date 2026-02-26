@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+<front>
+<div type="address"><note type="editorial"></note></div>
+</front>
+<body>
+<div type="letter">
+<pb n="1" facs="#f0001" />
+<opener>
+<salute><lb/>Euer Excellenz</salute>
+</opener>
+<p>
+<lb/>Habe ich am 16<hi rendition="#latin"><abbr>ten</abbr></hi> <hi rendition="#latin">august</hi> eine <hi rendition="#latin">Andromeda</hi>
+<lb/>zur <hi rendition="#latin">Concurrenz</hi> der preißaufgabe nebst
+<lb/>einer bunten, und geduschten landschafft
+<lb/>einzusenden die Ehre gehabt; Da ich
+<lb/>aber bisjetzo, den, der anzeige nach, zu
+<lb break="no"/>erwartenten Empfang schein noch nicht
+<lb/>erhalten habe, so entsteht bey mir, ein
+<lb/>nicht grundloser zweifel an der richtigen
+<lb/>Post <hi rendition="#latin">Expedition</hi> des <hi rendition="#latin">Packets</hi>, ich bitte
+<lb/>dahero Euer <hi rendition="#latin">Excellenz</hi> mich gütigst aus
+<lb/>dieser Verlegenheit zu ziehen, und den
+<lb/>versicherungen der schuldigen Hochachtung
+<lb/>glauben beyzumessen, womit ich zu
+<lb/>verharren die Ehre habe,
+</p>
+<closer>
+<salute><lb/>Euer Excellenz</salute>
+<lb/>
+<dateline>
+<placeName>Öhringen</placeName> <abbr>d</abbr> <date when="1802-10-19">19<abbr>:</abbr> <abbr>8br</abbr>.
+<lb/>1802.</date>
+</dateline>
+<salute>
+<lb/>unterthänigster Diener
+</salute>
+<signed>
+<lb/><abbr>J.</abbr> Jacob Schillinger
+<lb/>HofMahler. im fürstl<abbr>:</abbr>
+<lb/>Hohenloischen.
+</signed>
+</closer>
+</div>
+</body>
+</text>

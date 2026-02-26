@@ -1,0 +1,57 @@
+<text>
+  <front>
+    <div type="address">
+      <note type="editorial"></note>
+    </div>
+  </front>
+  <body>
+    <div type="letter">
+      <pb n="1" facs="Image name" />
+      <opener>
+        <dateline>
+          <lb/><placeName>Jena</placeName> den
+          <lb/><date when="1803-09-11">11 7br. 803.</date>
+        </dateline>
+        <salute><lb/>Verehrtester Gönner</salute>
+      </opener>
+      <p>
+        <lb/>Reg. R. Schmidt in Weimar 
+        <lb/>Jena den 11 7br. 803.   
+        <lb/>Verehrtester Gönner 
+        <lb/>
+        <lb/>Ich nehme mir die Freyheit dieselben mit diesem Briefe zu beschweren, weil der 
+        <lb/>Hr HR. Eichstädt mir sagte daß der Hr Geh. Rath Voigt nach Eisenach verreiset 
+        <lb/>wären, wenigstens glaubte er es; die Ursache dieses Briefes ist beiliegendes 
+        <lb/>Intelligenzbladt, darinnen die Anzeige der Versetzung des Instituts der Allg. 
+        <lb/>Literatur Zeitung nach Halle angezeigt wird, nebst der Versetzung des Hrn 
+        <lb/>HR. Schütz und Prof. Ersch, ebendahin; auch werden am Ende des Stücks die 
+        <lb/>Herren Interessenten gebeten ihre Bestellungen bis Ende Novembers 
+        <lb/>hieher einzusenden. 
+        <lb/>
+        <lb/>Damit nun die Herren geheimden Räthe von dieser Anzeige unterrichtet 
+        <lb/>sind übersende ich denenselben 2 Intelligenzblätter nebst gehorsamster 
+        <lb/>Bitte, daß dieselben die Gewogenheit haben und selbige dem Herrn GehR. 
+        <lb/>Voigt, sollten Sie aber verreiset seyn, dem Herrn Geh R. v. Göthe gütigst zu-
+        <lb/>stellen; denn da nur diese Anzeige im Publikum existirt, so wird 
+        <lb/>es dringend nöthig daß auch eine Anzeige von dem neuen Institute 
+        <lb/>dem Publikum in die Hände gegeben wird, und dies Unternehmen 
+        <lb/>auch im Ausland bekannt wird; weil sonst die Bestellungen bey dem alten 
+        <lb/>eingehen. 
+        <lb/>
+        <lb/>Noch bitte gehorsamst daß Dieselben die Liebe und Güte haben und mir Nach-
+        <lb/>richt geben wenn der Hr geh. R. Voigt zurückkommen, ich erwarte in dieser 
+        <lb/>Woche Antwort auf meinen Brief den ich nach Straßburg wegen dem 
+        <lb/>Papier geschrieben habe, diese Antwort möchte ich gern sogleich den 
+        <lb/>Herren geh. Räthen vorlegen. 
+        <lb/>
+        <closer>
+          <salute><lb/>Vergeben dieselben diese verursachte Mühe</salute>
+          <salute><lb/>Dero</salute>
+          <salute><lb/>gehors. Diener</salute>
+          <signed><lb/>Goepferdt</signed>
+        </closer>
+      </p>
+      <pb n="2"/>
+    </div>
+  </body>
+</text>

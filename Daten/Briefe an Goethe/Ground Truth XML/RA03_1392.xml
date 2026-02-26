@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text xml:id="ra4638_source">
+  <front>
+    <div type="address">
+      <note type="editorial"/>
+    </div>
+  </front>
+  <body>
+    <div type="letter">
+      <pb n="1"/>
+      <opener>
+        <dateline>
+          <lb/>
+          <placeName>
+            <hi rendition="#latin">Nismes</hi>
+          </placeName>
+          <date when="1801-10-24">
+            <hi rendition="#latin">Le 1r Brumaire an 10 <lb/>de la <abbr>rep.</abbr>
+              <abbr>franc.</abbr> 24 octobre 1801</hi>
+          </date>
+        </dateline>
+        <salute>
+          <lb/>
+          <hi rendition="#latin">Monsieur</hi>
+        </salute>
+        <lb/>
+      </opener>
+      <p>
+        <lb/>
+        <hi rendition="#latin">Les eminences services que vous avez rendus aux lettres &#x26; aux
+          Sciences <lb/>vous ont acquis des longtems la reconnaissance de tous ceux qui les
+          <lb/>cultivent le Lycée s'sempresse des ses premiers pas de vous donner <lb/>un temoignage
+          public de sa haute estime en vous offrant une place <lb/>parmi ses associés Il se flatte
+          que vous voudriez bien l'accepter <lb/>&#x26; j'ai l'honneur de vous adresser le diplôme
+          qu'il vous an unanimement</hi>
+        <lb/>
+        <lb/>
+        <hi rendition="#latin"><abbr>Monsr</abbr> Goethe a Weymar</hi>
+      </p>
+    </div>
+  </body>
+</text>

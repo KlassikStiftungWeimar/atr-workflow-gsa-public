@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+    <front>
+        <div type="address">
+            <note type="editorial"/>
+        </div>
+    </front>
+    <body>
+        <div type="letter">
+            <pb n="1" facs="#f0001"/>
+            <opener>
+                <dateline><lb/>den <date when="1803-01-10">10<hi rendition="#latin"
+                            ><abbr>ten</abbr></hi> Jenner 1803</date></dateline>
+                <salute><lb/>Lieber Sohn!</salute>
+            </opener>
+            <p>
+                <lb/>Demoiselle Mäyer ist wegen ihres guten Lebens Wandels &#x2013; ihres
+                <lb/>Fleißes &#x2013; ihrer Anstrengung bey dem Pupplicum sehr beliebt &#x2013; es
+                <lb/>hat also nachsicht mit ihrer schwachen Stimme &#x2013; mich dauert Sie immer
+                <lb/>Sie würde mit Ihren Anlagen eine Brave Sängerin werden <abbr>u</abbr> aber
+                <lb/>Ihre Stimme ist <lb/>lieblich und angenehm <lb/>Ihre Brust ist sehr schwach
+                &#x2013; In einer großen Oper <abbr>z. E.</abbr> Sextus <lb/>kan Sie am Ende fast
+                nicht mehr fort &#x2013; aber wie oben gesagt <lb/>wir haben Sie lieb bedauern Sie
+                und ablautiren &#x2013; als Schauspielerin <lb/>hat Sie gar keinen werth &#x2013;
+                Sie kaut alles mann versteht Sie kein <lb/>wort &#x2013; in stille Waßer sind tief
+                macht oder verdirbt Sie vielmehr <lb/>die kleine Rolle der Thereße &#x2013; so auch
+                in den kleinstädter &#x2013; es ist <lb/>auch bey uns nur aus Noth wenn Sie
+                gebraucht wird &#x2013; indem drey <lb/>unseren besten Schauspielerinnen von hir weg
+                sind. Ihre Stimme <lb/>ist seit voriges Jahr nicht stärcker geworden &#x2013; also
+                gebeßert hat <lb/>Sie sich wenigstens nicht &#x2013; Ich habe Sie hiermit gezeichnet
+                nach Leib <lb/>und Seele &#x2013; Sollte ich etwas vergeßen haben; so berichte es
+                mir <lb/>und ich will es nachholen &#x2013; dem Lieben Augst seinen Brief habe
+                <lb/>erhalten &#x2013; auch schon beantwortet &#x2013; daß Ihr alle Wohl seyd
+                &#x2013; macht <lb/>mir heute einen frohen tag &#x2013; Gott! Erhalte Euch ferner
+                Gesund <lb/>und vergnügt &#x2013; Lebt wohl! Tausend grüße an meine Liebe
+                <lb/>Tochter und an Augst von der alten Mutter <abbr>u</abbr> Großmutter </p>
+            <closer>
+                <signed><lb/>Goethe.</signed>
+            </closer>
+        </div>
+    </body>
+</text>

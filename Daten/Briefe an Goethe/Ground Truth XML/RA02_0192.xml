@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text xml:id="ra1766_source">
+  <front>
+    <div type="address">
+      <note type="editorial"/>
+    </div>
+  </front>
+  <body>
+    <div type="letter">
+      <pb n="1" facs="ra:digitalisate#1766/12634"/>
+      <opener>
+        <dateline>
+          <lb/>
+          <placeName>
+            <hi rendition="#latin">Frankfurt.</hi>
+          </placeName>
+          <abbr>d</abbr>
+          <date when="1796-05-10">10 May 96.</date>
+        </dateline>
+      </opener>
+      <p>
+        <lb/>Lassen Sie mich doch Mein theurer <lb/>mit ein paar Worten wissen ob meine
+        <lb/>Eingeweidlehre, und meine Abhandlung <lb/>über das Seelenorgan Ihnen richtig beyge <lb
+          break="no"/>kommen sind oder nicht.</p>
+      <p>
+        <lb/>auch lezterer hatte ich noch einige Zeichen <lb/>beygefügt. Ich bin sehr neugierig zu
+        erfahren <lb/>was Sie dazu sagen. Ganz Ihr </p>
+      <closer>
+        <lb/>
+        <signed>Soemmering.</signed>
+      </closer>
+    </div>
+  </body>
+</text>

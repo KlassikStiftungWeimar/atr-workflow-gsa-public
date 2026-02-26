@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text xml:id="ra5827_source">
+  <front>
+    <div type="address">
+      <note type="editorial"/>
+    </div>
+  </front>
+  <body>
+    <div type="letter">
+      <pb n="1"/>
+      <p>
+        <lb/><hi rendition="#latin">Copia</hi>
+        <lb/><abbr>p.p.</abbr>
+        <lb/><abbr>Ew.</abbr>
+        <abbr>Wohlgeb</abbr> melde ich hierdurch ergebenst <lb/>daß <abbr>H</abbr> Hofrath Schütz
+        mir heute eine <lb/><abbr>könig</abbr>
+        <abbr>preuß</abbr> Cabinetsordre gezeigt <lb/>hat, in welcher dero <abbr>allgem.</abbr>
+        <abbr>Litt.</abbr> Zeitung <lb/>in Jena in <abbr>sämmt</abbr>
+        <abbr>preuß</abbr> Landen ver <lb break="no"/>boten werden soll, wofern nicht <lb/>deren
+        Titel welcher mit der in Halle <lb/>übereinstimmend, und ganz ähnlich <lb/>seyn soll;
+        verändert wird </p>
+      <closer>
+        <salute><lb/>Mit grosster Hochachtung beharre ich <lb/><abbr>Ew.</abbr>
+          <abbr>Wohlgeb</abbr>
+          <lb/>
+          <lb/>gehorsamer Diener</salute>
+        <signed>
+          <lb/>Scharf</signed>
+        <dateline>
+          <lb/>
+          <placeName>Leipzig</placeName>
+          <lb/>
+          <abbr>d.</abbr>
+          <date when="1803-11-10">10 <abbr>Nov.</abbr>
+            <lb/>1803.</date>
+        </dateline>
+      </closer>
+    </div>
+  </body>
+</text>

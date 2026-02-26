@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+    <front>
+        <div type="address">
+            <note type="editorial"/>
+        </div>
+    </front>
+    <body>
+        <div type="letter">
+            <pb n="1" facs="Image name"/>
+            <opener>
+                <dateline><lb/><placeName>Jena</placeName> Samstag Abends <abbr>d.</abbr>
+                    <date when="1794-10-25">25<hi rendition="#sup">tn</hi> 8<hi rendition="#latin"
+                            >ber</hi> 1794.</date></dateline>
+                <salute><lb/>Nun, mein verehrter Herr und Freund,</salute>
+            </opener>
+            <p>
+                <lb/>bin ich endlich in meiner musenhaften Richte <lb/>und bereit von Montag an,
+                Acht Kollegia <lb/>täglich zu hören und noch obendrein was <lb/>Griechisch zu
+                treiben in einer Privat Stunde <lb/>da ich's doch zum Homer nöthig habe. <lb/>Hier
+                ist meine Tags-Ordnung: <lb/>Morg 6-9 &#x2013; Für mich. &#x2013; <hi
+                    rendition="#latin">aurora musis amica</hi>. <lb/>9-10. <hi rendition="#latin"
+                    >aesthetik</hi> bey Schütz. <lb/>10-11. Natur-Recht. &#x2013; " Hufeland.
+                <lb/>11-12. Griechisch. <lb/>Nachmts 1-2. Ehe-Recht, <hi rendition="#latin"
+                    >astronomie</hi> &amp; <hi rendition="#latin">Cicero</hi> } <abbr>H.</abbr>
+                <abbr>v.</abbr>
+                <abbr>S.</abbr>
+                <lb/>2-3. reine Mathematik bey Voigt. <lb/>3-4. Logik &amp; theoretische
+                    <abbr>Philos:</abbr> bey Fichte. <lb/>4-5. <hi rendition="#latin">Homer</hi>
+                &#x2013; bey Ilgen. <lb/>5-6. Literatur Geschichte bey Schütz. <lb/>6-7. Staaten
+                Geschichte bey Moltman. <lb/>8-11. Wiederholung. Sams <abbr>u.</abbr> Sonntags
+                nochmals. </p>
+        </div>
+    </body>
+</text>

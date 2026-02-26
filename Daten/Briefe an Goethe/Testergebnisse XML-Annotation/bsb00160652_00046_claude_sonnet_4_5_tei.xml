@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+    <front>
+        <div type="address">
+            <note type="editorial"></note>
+        </div>
+    </front>
+    <body>
+        <div type="letter">
+            <pb n="1"/>
+            <opener>
+                <dateline>
+                    <lb/><date when="1804-06-26">26 Juny 1804</date>
+                </dateline>
+            </opener>
+            <p>
+                <lb/>Verzeihen sie verehrungs würdiger mann, wenn ich die bitte wage
+                <lb/>mir nur durch einige zeilen anzuzeigen anzuzeigen, ob sie meine am
+                <lb/>19<hi rendition="#sup">ten</hi> April abgesandte zeichnung zu der bewussten medaille erhalten haben,
+                <lb/>wenn nicht so könnte ich da der postschein
+                <lb/>noch gültig ist nachfrage anstellen. Sie sind zu wohl wollend
+                <lb/>als daß sie meine bitte übel nehmen sollten, dieser gedanke
+                <lb/>besiegte auch meine furcht bey Ihnen den vorwurf der unbeschei<lb break="no"/>denheit auf mich zu laden.
+                <lb/>Mein vater empfiehlt sich Ihnen hochachtungsvoll
+            </p>
+            <closer>
+                <salute>
+                    <lb/>mit der innigsten verehrung
+                </salute>
+            </closer>
+            <p>
+                <lb/>Verzeihen
+            </p>
+        </div>
+    </body>
+</text>

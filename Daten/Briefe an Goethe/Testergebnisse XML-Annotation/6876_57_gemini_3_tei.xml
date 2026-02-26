@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+<front>
+<div type="address"><note type="editorial"></note></div>
+</front>
+<body>
+<div type="letter">
+<pb n="1" facs="img_001.jpg" />
+<opener>
+<dateline><lb/><placeName>W.</placeName> den 4. <date when="1802-08-04">Augt 1802.</date></dateline>
+<salute><lb/>Ew. Excellenz</salute>
+</opener>
+<p>
+<lb/>werde ich Herrmanns Metrik übersenden,
+<lb/>sobald sie fertig ist, u ich dieselbe erhalte.
+<lb/>Die neueste Ausgabe von Voß Gedichten befindet
+<lb/>sich schon auf fürstl. Bibliothek; ein schönes
+<lb/>Exemplar auf geplättetes Papier, welches
+<lb/><hi rendition="#latin">Sereniss.</hi> geschickt hat. Ich glaubte immer,
+<lb/>er werde auch Voß Homer senden, u des
+<lb break="no"/>halb habe ich seine Anschaffung nicht ergirt,
+<lb/>weil es sonst immer <hi rendition="#latin">Doubletten</hi> giebt. Ich
+<lb/>will aber denselben bestellen; u ihn sogleich
+<lb/>zum Buchbinder schicken.
+</p>
+<closer>
+<salute><lb/>Ich bin Ew Excellenz
+<lb/>unterth. Diener</salute>
+<signed><lb/>Vulpius.</signed>
+</closer>
+</div>
+</body>
+</text>

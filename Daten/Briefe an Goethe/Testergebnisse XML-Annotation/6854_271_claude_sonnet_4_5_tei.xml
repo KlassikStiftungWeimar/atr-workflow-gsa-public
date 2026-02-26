@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+    <front>
+        <div type="address">
+            <note type="editorial"></note>
+        </div>
+    </front>
+    <body>
+        <div type="letter">
+            <pb n="1" facs="Image name"/>
+            <opener>
+                <salute><lb/>Monsieur</salute>
+            </opener>
+            <p>
+                <lb/>nous aurions desirés avoire l'honneur de vous parlé
+                <lb/>ce matin étant adressé a vous par le baron de
+                <lb/>weydre mon cousin qui nous a dy que vous vouderies
+                <lb/>bien nous donner des consiels sur la maniére dont
+                <lb/>nous devons nous y prendre pour obtenire la pérmission
+                <lb/>Détre pressanté a madame la duchesse ayant
+                <lb/>une léttre de recommendation de madame la princesse
+                <lb/>de nassau; nous desirons aussi obtenire celle détallés
+                <lb/>des marchandises a la cour; vieullies bien monsieur
+                <lb/>vous interessés pour nous en cette affaire et –
+                <lb/>avoire la bonté de nous faire savoire quel cera
+                <lb/>le résulta de notre demande; j'ai l'honneur d'être
+            </p>
+            <closer>
+                <salute>
+                    <lb/>Monsieur
+                    <lb/>Votre tres humble
+                    <lb/>sevante de Barst
+                </salute>
+                <signed>
+                    <lb/>née de Rebauches
+                </signed>
+            </closer>
+        </div>
+    </body>
+</text>

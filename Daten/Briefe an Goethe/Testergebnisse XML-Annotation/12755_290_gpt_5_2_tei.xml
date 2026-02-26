@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+  <front>
+    <div type="address">
+      <note type="editorial"></note>
+    </div>
+  </front>
+  <body>
+    <div type="letter">
+      <pb n="1" facs="Image name" />
+      <opener>
+        <salute><lb/>Hochwohlgebohrner<lb/>insonders hochzuverehrender Herr!</salute>
+      </opener>
+      <p>
+        <lb/>Da die Manier in welcher beylagende Zeich-
+        <lb/>nungen gearbeitet sind einer eigenes Licht erfordern
+        <lb/>in welchem sie am vortheilhaftesten gesehen werden können,
+        <lb/>so bitte ich Euer Hochwohlgebohrnen selbe bey der öffent¬
+        <lb/>lichen Ausstellung so hinsetzen zu lassen, daß die
+        <lb/>Lichtstrahlen bey einem gemäßigten Lichte schief auf
+        <lb/>sie fallen, wobey das Ganze vieles an seiner Wirkung
+        <lb/>gewinnen wird - In einem noch abzusendetem
+        <lb/>Schreiben werde ich weitläufiger über beyde Stücke noch
+        <lb/>sprechen.
+        <lb/>Ich hoffe, daß Sie mir diese Bemerkung
+        <lb/>zu Gute halten, und versichert sind, daß ich mit
+        <lb/>ausgezeichneter Hochachtung sey
+        <lb/>ihr gehorsamsten Diener
+        <lb/>Köln d 15ten August
+        <lb/>Joseph Hoffmann.
+        <lb/>1801.
+        <closer>
+          <signed><lb/></signed>
+        </closer>
+      </p>
+    </div>
+  </body>
+</text>

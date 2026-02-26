@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text xml:id="ra1893_source">
+  <front>
+    <div type="address">
+      <note type="editorial"/>
+    </div>
+  </front>
+  <body>
+    <div type="letter">
+      <pb n="1" facs="ra:digitalisate#1893/7828"/>
+      <opener>
+        <salute><lb/>Monsieur</salute>
+      </opener>
+      <p>
+        <lb/>J'apprens avec un interêt bien senti que L'accession <lb/>de l'Electeur de Saxe, dont
+        Elle me fait part <lb/>achève d'éloigner les maux de la Guerre <lb/>de Ses etats et de ceux
+        de <abbr>V.</abbr>
+        <abbr>A.</abbr>
+        <abbr>S.</abbr> Rien <lb/>ne sauroit être plus conforme à mes desirs, <lb/>ansi qu'à
+        l'interêt commun; je saisirai <lb/>toujours avec empressement toutes les occasions
+        <lb/>d'être utile à <abbr>V.</abbr>
+        <abbr>A.</abbr>
+        <abbr>S.</abbr> et de repondre <lb/>à la confiance qu' Elle et les autres Princes
+        <lb/>d'Allemagne me temoigne; c'est avec <lb/>ces sentimens que je ne cesserai d'être, </p>
+      <closer>
+        <salute><lb/>Monsieur, <lb/>de <abbr>V.</abbr>
+          <abbr>A.</abbr>
+          <abbr>S.</abbr>
+          <lb/>le très affectionné <lb/>cousin et beau frère</salute>
+        <signed><lb/>Fr Guillaume</signed>
+        <dateline>
+          <lb/><placeName>Cassel</placeName>
+          <lb/> ce <date when="1796-08-04">4 d'Août <lb/>1796</date>
+        </dateline>
+      </closer>
+      <p>
+        <lb/>a <abbr>S.</abbr>
+        <abbr>A.</abbr>
+        <abbr>S.</abbr>
+        <lb/>Monsieur le Duc Regnant <lb/>de Saxe Weimar, <lb/>Weimar </p>
+    </div>
+  </body>
+</text>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+    <front>
+        <div type="address">
+            <note type="editorial"></note>
+        </div>
+    </front>
+    <body>
+        <div type="letter">
+            <pb n="1"/>
+            <opener>
+                <dateline>
+                    <lb/><date when="1802-02">Febr. 1802.</date>
+                </dateline>
+            </opener>
+            <p>
+                <lb/>Bestens danke ich für mittheilung der
+                <lb/>beylage. Gewis hat diese Schrift bedeutende
+                <lb/>verdienste, da aber daß gerichtete sujet
+                <lb/>nur weniger abwechslung in seiner bearbei-
+                <lb break="no"/>tung fähig ist, so war die natürl. folge daß
+                <lb/>viele überflüßige momente eintreten
+                <lb/>mußten, u. mancherley überflüßiges, gedehntes
+                <lb/>langweiliges in die rede kam. Im ganzen ist
+                <lb/>daß opus wohl etwas sehr laulicht, u. die
+                <lb/>schwachen häufigen lückenbüßer tödten
+                <lb/>dasjenige was ans feurige sich hie u. da nähert.
+                <lb/>die Sprache ist, dünkt mir, meistens sehr hart
+                <lb/>u. bestärkt mich in dem glauben, daß der
+                <lb/>genus dieser jamben äuserst gefährlich ist,
+                <lb/>indem bey einem autor der nicht von der Natur
+                <lb/>daß organ erhalten hat diese versart
+                <lb/>mit eleganz aus seiner feder fließen zu laßen,
+                <lb/>dieses metrum leichte in höckrige, so zu sagen
+                <lb/>pedantische prosa ausartet.
+            </p>
+            <closer>
+                <signed>
+                    <lb/>C.A.
+                </signed>
+            </closer>
+        </div>
+    </body>
+</text>

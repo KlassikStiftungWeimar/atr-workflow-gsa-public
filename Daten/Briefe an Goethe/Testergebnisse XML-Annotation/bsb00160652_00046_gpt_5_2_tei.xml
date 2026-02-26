@@ -1,0 +1,42 @@
+<text>
+  <front>
+    <div type="address">
+      <note type="editorial"></note>
+    </div>
+  </front>
+  <body>
+    <div type="letter">
+      <pb n="1" facs="Image name" />
+      <opener>
+        <dateline>
+          <lb/>
+          <placeName>Location</placeName> den
+          <lb/>
+          <date when="1804-06-26">26 Juny 1804</date>
+        </dateline>
+        <salute>
+          <lb/>Verzeihen sie verehrungs würdiger mann,
+        </salute>
+      </opener>
+      <p>
+        <lb/>wenn ich die bitte wage
+        <lb/>mir nur durch einige zeilen anzuzeigen anzuzeigen, ob sie meine am
+        <lb/>19ten April abgesandte zeichnung zu der bewussten medaille erhalten haben,
+        <lb/>wenn nicht so könnte ich da der postschein
+        <lb/>noch gültig ist nachfrage anstellen. Sie sind zu wohl wollend
+        <lb/>als daß sie meine bitte übel nehmen sollten, dieser gedanke
+        <lb/>besiegte auch meine furcht bey Ihnen den vorwurf der unbeschei¬
+        <lb/>denheit auf mich zu laden.
+        <lb/>Mein vater empfiehlt sich Ihnen hochachtungsvoll
+        <lb/>Ich bin mit der innigsten verehrung
+        <lb/>Verzeihen Verzeihen
+        <lb/>Verzeihen
+        <lb/>Verzeihen
+        <closer>
+          <salute><lb/>Verzeihen</salute>
+          <signed><lb/></signed>
+        </closer>
+      </p>
+    </div>
+  </body>
+</text>

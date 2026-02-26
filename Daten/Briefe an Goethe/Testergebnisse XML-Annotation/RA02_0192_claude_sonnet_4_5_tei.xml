@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+    <front>
+        <div type="address">
+            <note type="editorial"></note>
+        </div>
+    </front>
+    <body>
+        <div type="letter">
+            <pb n="1"/>
+            <opener>
+                <dateline>
+                    <lb/><placeName>Frankfurt</placeName>. d
+                    <lb/><date when="1796-05-10">10 May 96</date>.
+                </dateline>
+            </opener>
+            <p>
+                <lb/>Lassen Sie mich doch Mein theurer
+                <lb/>mit ein paar Worten wissen ob meine
+                <lb/>Eingeweidlehre, und meine Abhandlung
+                <lb/>über das Seelenorgan Ihnen richtig beyge
+                <lb break="no"/>kommen sind oder nicht.
+                <lb/>auch lezterer hatte ich noch einige Zeichen
+                <lb/>beygefügt. Ich bin sehr neugierig zu erfahren
+                <lb/>was Sie dazu sagen.
+            </p>
+            <closer>
+                <salute>
+                    <lb/>Ganz Ihr
+                </salute>
+                <signed>
+                    <lb/>Soemmering.
+                </signed>
+            </closer>
+        </div>
+    </body>
+</text>

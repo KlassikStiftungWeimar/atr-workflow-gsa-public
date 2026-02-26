@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+    <front>
+        <div type="address">
+            <note type="editorial"></note>
+        </div>
+    </front>
+    <body>
+        <div type="letter">
+            <pb n="1" facs="Image name"/>
+            <p>
+                <lb/>Ich dancke Ihnen für die Mittheilung des Briefs der
+                <lb/>mich hat zu lachen gemacht, aber wer ist den der
+                <lb/>Herr Schönborn? Ich habe in zwey Posttägen 6 Brie
+                <lb break="no"/>fe auf einmahl vom Fritz bekommen, sehr verständig
+                <lb/>aber auch hertzlich, den einen schließt er mit dem Vers,
+                <lb/>den er sich wo gemerckt
+                <lb/>– <hi rendition="#latin">home ist the resort
+                <lb/>of Love, of joy, of peace and plenty, where
+                <lb/>supporting and supported, polish'd Friends
+                <lb/>and dear relation mingle in to bliss.</hi>
+                <lb/>Vor mich ist's aber sehr betrübt daß ihn der Herzog
+                <lb/>so gleich wieder auf ein paar Jahr fortschicken
+                <lb/>will, ich hatte mich auf unßre häußliche exis
+                <lb break="no"/>tenz gefreut, und ein paar Jahre – wer weis
+                <lb/>ob ihr noch einige in mein LebensBuch geschrieben sind
+            </p>
+            <closer>
+                <signed>
+                    <lb/>von Stein
+                </signed>
+            </closer>
+            <postscript n="1">
+                <p>
+                    <lb/>erlauben Sie daß ich Fritzens Brief behalten darf
+                    <lb/>so schicken Sie mir ihn bey Gelegenheit einmahl
+                    <lb/>wieder, ich samle seine Briefe wärend seiner
+                    <lb/>Reise.
+                </p>
+            </postscript>
+        </div>
+    </body>
+</text>

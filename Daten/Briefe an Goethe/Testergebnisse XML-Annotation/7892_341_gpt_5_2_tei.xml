@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+  <front>
+    <div type="address">
+      <note type="editorial"/>
+    </div>
+  </front>
+  <body>
+    <div type="letter">
+      <pb n="1" facs="Image name"/>
+      <opener>
+        <dateline><lb/><placeName>Rome</placeName> den <lb/><date when="1789-01-20">20. Janv
+            1789</date></dateline>
+        <salute><lb/>Monsieur</salute>
+      </opener>
+      <p>
+        <lb/>La Caissette contenante des semences des fleurs a été <lb/>remisé depuis la semaine
+        passé a la Maison de Mons <lb/>Le Conseiller Reiffenstein, lui ayant ecrit a Naples, <lb/>il
+        est actuellement avec S. A. Made La Duchesse <lb/>de Saxe Weimar, afin qu'il en donne ses
+        dispositions. <lb/>Les petits fraix on été chargé au votre compte. <lb/>Vous etes aussi
+        obligeant que vous vous souvenez de moi, &amp; <lb/>de ma soeur. Elle est mariée depuis
+        Juillet passé au <lb/>fils de Monsr. Volpato, &amp; elle est tres contente autant <lb/>que
+        le peut etre dans le comencement de sa grossesse <lb/>Elle a reçu avec reconnoissance votre
+        souvenir. <lb/>Si vous me trouvez bon a quelque chose disposez librement <lb/>de celui qui
+        avec la plus parfait consideration &amp; respect <lb/>a l'honneur d'etre tres sincerement </p>
+      <closer>
+        <salute><lb/>Votre tres humbe &amp; Obt Serv</salute>
+        <signed><lb/>Monsieur Charles Ambe Riggi</signed>
+      </closer>
+    </div>
+  </body>
+</text>

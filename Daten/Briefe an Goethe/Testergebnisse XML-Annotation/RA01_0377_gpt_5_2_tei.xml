@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+  <front>
+    <div type="address">
+      <note type="editorial"></note>
+    </div>
+  </front>
+  <body>
+    <div type="letter">
+      <pb n="1" facs="Image name" />
+      <opener>
+        <salute><lb/>An Johann Wolfgang Göthe.</salute>
+        <dateline><lb/><placeName></placeName> den <lb/><date when="1789-08-28">28. Aug. 1789.</date></dateline>
+      </opener>
+      <p>
+        <lb/>Sanct Johannes der zweite (den ersten erschlugen die Mörder,
+        <lb/>ob er gleich sterbend noch: liebt euch, ihr Kinderchen! sprach;)
+        <lb/>Also Johannes Secundus Evangelista vetraut Dir
+        <lb/>aus Eysium heut küßend den holdesten Gruß
+        <lb/>Bruder, Tertie, spricht er, Du nimmst an Weisheit und Alter,
+        <lb/>nimmst an der Grazie zu, wie sie den Göttern gefällt,
+        <lb/>Und den Menschen. Wohlan! Statt meiner weih'ich Dich heute;
+        <lb/>krönen am Ende des Buchs wird Dich ein andrer, ein Gott.
+      </p>
+      <pb n="2"/>
+    </div>
+  </body>
+</text>

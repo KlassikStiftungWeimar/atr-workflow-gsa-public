@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text xml:id="ra1121_source">
+    <body>
+        <pb n="1" facs="ra:digitalisate#1121/11055"/>
+        <opener>
+            <dateline>
+                <lb/>
+                <placeName>Jena</placeName>
+                <date when="1794-10-25"> Samstag Abends <abbr>d.</abbr> 25tn <abbr>8ber</abbr>
+                    1794.</date>
+            </dateline>
+        </opener>
+        <p>
+            <lb/>Nun, mein verehrter Herr und Freund, <lb/>bin ich endlich in meiner musenhaften
+            Richte <lb/>und bereit von Montag an, Acht Kollegia <lb/>täglich zu hören und noch
+            obendrein was <lb/>Griechisch zu treiben in einer Privat Stunde <lb/>da ich's doch zum
+            Homer nöthig habe. <lb/>Hier ist meine Tags-Ordnung: </p>
+        <p>
+            <table>
+                <row>
+                    <cell>
+                        <abbr>Morg</abbr>
+                    </cell>
+                    <cell>6-9</cell>
+                    <cell>– Für mich. – <hi rendition="#latin">aurora musio amica.</hi>
+                    </cell>
+                </row>
+                <row>
+                    <cell/>
+                    <cell>9-10.</cell>
+                    <cell>
+                        <hi rendition="#latin">aesthetik</hi> bey Schütz.</cell>
+                </row>
+                <row>
+                    <cell/>
+                    <cell>10-11.</cell>
+                    <cell>Natur-Recht. – " Hufeland.</cell>
+                </row>
+                <row>
+                    <cell/>
+                    <cell>11-12.</cell>
+                    <cell>Griechisch.</cell>
+                </row>
+                <row>
+                    <cell>
+                        <abbr>Nachmts</abbr>
+                    </cell>
+                    <cell>1-2.</cell>
+                    <cell>Ehe-Recht, <hi rendition="#latin">astronomie &amp; Cicero</hi> } <abbr>
+                            <hi rendition="#latin">H. v. S.</hi>
+                        </abbr>
+                    </cell>
+                </row>
+                <row>
+                    <cell/>
+                    <cell>2-3.</cell>
+                    <cell>reine Mathematik bey <hi rendition="#latin">Voigt.</hi>
+                    </cell>
+                </row>
+                <row>
+                    <cell/>
+                    <cell>3-4.</cell>
+                    <cell>
+                        <hi rendition="#latin">Logik</hi> &amp; theoretische <hi rendition="#latin">
+                            <abbr>Philos.</abbr>
+                        </hi> bey <hi rendition="#latin">Fichte</hi>.</cell>
+                </row>
+                <row>
+                    <cell/>
+                    <cell>4-5.</cell>
+                    <cell>
+                        <hi rendition="#latin">Homer</hi> – bey <hi rendition="#latin">Ilgen.</hi>
+                    </cell>
+                </row>
+                <row>
+                    <cell/>
+                    <cell>5-6.</cell>
+                    <cell>Literatur Geschichte bey <hi rendition="#latin">Schütz.</hi>
+                    </cell>
+                </row>
+                <row>
+                    <cell/>
+                    <cell>6-7.</cell>
+                    <cell>Staaten Geschichte bey Moltman.</cell>
+                </row>
+                <row>
+                    <cell/>
+                    <cell>8-11.</cell>
+                    <cell>Wiederholung. <abbr>Sams</abbr>
+                        <abbr>u.</abbr> Sonntags nochmals.</cell>
+                </row>
+            </table>
+        </p>
+    </body>
+</text>

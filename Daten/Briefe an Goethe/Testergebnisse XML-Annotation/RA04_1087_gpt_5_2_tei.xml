@@ -1,0 +1,40 @@
+<text>
+  <front>
+    <div type="address">
+      <note type="editorial"></note>
+    </div>
+  </front>
+  <body>
+    <div type="letter">
+      <pb n="1" facs="Image name" />
+      <opener>
+        <dateline>
+          <lb/><placeName>Leipzig</placeName> den
+          <lb/><date when="1803-11-10">d. 10 Nov. 1803.</date>
+        </dateline>
+        <salute><lb/>Ew. Wohlgeb?</salute>
+      </opener>
+      <p>
+        <lb/>Copia
+        <lb/>p.p.
+        <lb/>Ew. Wohlgeb? melde ich hierdurch ergebenst
+        <lb/>daß H? Hofrath Schütz mir heute eine
+        <lb/>könig? preuß? Cabinetsordre gezeigt
+        <lb/>hat, in welcher dero allgem. Litt. Zeitung
+        <lb/>in Jena in sämmt? preuß? Landen ver-
+        <lb/>boten werden soll, wofern nicht
+        <lb/>deren Titel welcher mit der in Halle
+        <lb/>übereinstimmend, und ganz ähnlich
+        <lb/>seyn soll; verändert wird
+        <lb/>
+        <lb/>Mit grosster Hochachtung beharre ich
+        <lb/>Ew. Wohlgeb?
+        <lb/>
+        <closer>
+          <salute><lb/>gehorsamer Diener</salute>
+          <signed><lb/>Scharf</signed>
+        </closer>
+      </p>
+    </div>
+  </body>
+</text>

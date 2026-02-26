@@ -1,0 +1,32 @@
+<text>
+  <front>
+    <div type="address">
+      <note type="editorial">
+        <lb/>Monsr Goethe a Weymar
+      </note>
+    </div>
+  </front>
+  <body>
+    <div type="letter">
+      <pb n="1" facs="Image name" />
+      <opener>
+        <dateline>
+          <lb/><placeName>Nismes</placeName> Le
+          <lb/><date when="1801-10-24">1r Brumaire an 10 
+de la rep. franc. 24 octobre 1801</date>
+        </dateline>
+        <salute><lb/>Monsieur</salute>
+      </opener>
+      <p>
+        <lb/>  
+        <lb/>
+        <lb/>Les eminences services que vous avez rendus aux lettres &amp; aux Sciences 
+        <lb/>vous ont acquis des longtems la reconnaissance de tous ceux qui les 
+        <lb/>cultivent le Lycée s'sempresse des ses premiers pas de vous donner 
+        <lb/>un temoignage public de sa haute estime en vous offrant une place 
+        <lb/>parmi ses associés Il se flatte que vous voudriez bien l'accepter 
+        <lb/>&amp; j'ai l'honneur de vous adresser le diplôme qu'il vous an unanimement 
+      </p>
+    </div>
+  </body>
+</text>
