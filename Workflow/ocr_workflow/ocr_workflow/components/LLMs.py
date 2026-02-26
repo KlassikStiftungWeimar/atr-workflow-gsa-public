@@ -26,8 +26,8 @@ _TEI_GL_EXAMPLE_1 = (_tei_dir / "349305_97.xml").read_text(encoding="utf-8")
 _TEI_GL_EXAMPLE_2 = (_tei_dir / "349305_102.xml").read_text(encoding="utf-8")
 _TEI_GL_EXAMPLE_3 = (_tei_dir / "349305_219.xml").read_text(encoding="utf-8")
 _TEI_RA_EXAMPLE_1 = (_tei_dir / "RA282_tei.xml").read_text(encoding="utf-8")
-_TEI_RA_EXAMPLE_2 = (_tei_dir / "RA765_tei.xml").read_text(encoding="utf-8")
-_TEI_RA_EXAMPLE_3 = (_tei_dir / "RA5845_tei.xml").read_text(encoding="utf-8")
+_TEI_RA_EXAMPLE_2 = (_tei_dir / "RA5184_tei.xml").read_text(encoding="utf-8")
+_TEI_RA_EXAMPLE_3 = (_tei_dir / "RA341_tei.xml").read_text(encoding="utf-8")
 
 # Module-level clients – created once and reused (connection pooling)
 _openai_clients = {
@@ -103,7 +103,8 @@ def get_result_from_openai(messages: list, model: str, temperature: float, mode:
     return completion.choices[0].message.content
 
 
-def get_result_from_anthropic(messages: list, model: str, system_prompt: str, temperature: float, mode: str = "RA") -> str:
+def get_result_from_anthropic(messages: list, model: str, system_prompt: str, temperature: float,
+                              mode: str = "RA") -> str:
     """
     Calls the Anthropic Claude API and returns the model's response.
 
@@ -221,7 +222,8 @@ def get_result_from_google(messages: list, model: str, system_prompt: str, tempe
     )
 
 
-def get_result_from_mllm(messages: list, model: str, system_prompt: str | None, temperature: float, mode: str = "RA") -> str | None:
+def get_result_from_mllm(messages: list, model: str, system_prompt: str | None, temperature: float,
+                         mode: str = "RA") -> str | None:
     """
     Routes a request to the appropriate LLM provider based on the model name.
 
@@ -307,7 +309,8 @@ def get_mllm_only_atr_result(model: str, image_data_base64: str, temperature: fl
     return improved_result
 
 
-def get_merged_atr_mllm_result(model: str, ocr_engine_result: str, mllm_only_atr_result: str, image_data_base64: str, temperature: float,
+def get_merged_atr_mllm_result(model: str, ocr_engine_result: str, mllm_only_atr_result: str, image_data_base64: str,
+                               temperature: float,
                                mode: str = "RA") -> str:
     """
     Merges the results of an OCR engine and a multimodal LLM into an improved transcription.
@@ -336,9 +339,8 @@ def get_merged_atr_mllm_result(model: str, ocr_engine_result: str, mllm_only_atr
         f"\n\n~~~~~~\n{ocr_engine_result}\n~~~~~~\n"
         "And with a transcript created by a multimodal LLM:"
         f"\n~~~~~~\n{mllm_only_atr_result}\n~~~~~~\n\n"
-        "Identify the differences between the two text inputs and check these passages against "
-        "the images. Select the text version that best conforms to the images. "
-        "Provide only the transcript without any markdown or comments and "
+        "Merge these two transcripts into into one corrected version."
+        "Provide only the transcript without any markdown or comments and"
         "make sure to keep the original line breaks."
     )
 
@@ -379,7 +381,8 @@ def get_merged_atr_mllm_result(model: str, ocr_engine_result: str, mllm_only_atr
     return improved_result
 
 
-def get_tei_from_mllm(model: str, image_data: str | list[str], merged_text: str, chosen_prompt: str, custom_prompt_text: str, temperature: float, mode: str = "RA") -> str:
+def get_tei_from_mllm(model: str, image_data: str | list[str], merged_text: str, chosen_prompt: str,
+                      custom_prompt_text: str, temperature: float, mode: str = "RA") -> str:
     """
     Generates TEI-XML annotations for a transcribed text using a multimodal LLM.
 
@@ -430,18 +433,18 @@ def get_tei_from_mllm(model: str, image_data: str | list[str], merged_text: str,
     elif chosen_prompt == "prompt-tei-ra":
 
         images_info = f"The document consists of {num_pages} image(s) provided in order. " if num_pages > 1 else ""
-        pb_instruction = 'Insert <pb n="X"/> tags to     mark the start of each new image in sequential order (n="1" for first image, n="2" for second image, etc.)' if num_pages > 1 else 'The document has only one image'
+        pb_instruction = 'Insert <pb n="X"/> tags to mark the start of each new image in sequential order (n="1" for first image, n="2" for second image, etc.)' if num_pages > 1 else 'The document has only one image'
         prompt_text = (
             f"You are provided with a transcription of a handwritten letter from the 18th and 19th centuries. "
             f"{images_info}"
-            "Annotate it in TEI-XML using ONLY these allowed tags and structure:\n\n"
+            "Annotate it in TEI-XML using ONLY these allowed tags:\n\n"
             "<text>\n"
             "<front>\n"
-            '<div type="address"><note type="editorial">hat keine Adresse, ist geprüft</note></div>\n'
+            '<div type="address"><note type="editorial"></note></div>\n'
             "</front>\n"
             "<body>\n"
             '<div type="letter">\n'
-            '<pb n="1"/>\n'
+            '<pb n="1" facs="Image name" />\n'
             "<opener>\n"
             "<dateline><lb/><placeName>Location</placeName> den\n"
             '<lb/><date when="YYYY-MM-DD">Date</date></dateline>\n'
@@ -449,20 +452,21 @@ def get_tei_from_mllm(model: str, image_data: str | list[str], merged_text: str,
             "</opener>\n"
             "<p>\n"
             "<lb/>Text\n"
-            '<lb/><hi rendition="#latin">Latin text</hi>\n'
-            '<g ref="#typoHyphen"/> (for hyphenation marks)\n'
-            '<lb break="no"/> (for line breaks within a word)\n'
-            "</p>\n"
+            '<hi rendition="#latin">Latin text</hi>\n'
+            '<lb break="no"/> for line breaks within a word\n'
+            '<abbr>Abbreviation</abbr>\n'
             "<closer>\n"
             "<salute><lb/>Closing formula</salute>\n"
             "<signed><lb/>Signature</signed>\n"
             "</closer>\n"
+            "</p>\n"
+            '<postscript n=""><p>Postscript text</p></postscript>\n'
             '<pb n="2"/>\n'
             "(Add additional <pb n=\"3\"/>, <pb n=\"4\"/>, etc. for each subsequent image in order)\n"
             "</div>\n"
             "</body>\n"
             "</text>\n\n"
-            "Follow these examples precisely:\n"
+            "Follow these examples:\n"
             "~~~~~~\nExample 1:"
             f"\n{_TEI_RA_EXAMPLE_1}\n~~~~~~\n"
             "~~~~~~\nExample 2:"
@@ -476,8 +480,7 @@ def get_tei_from_mllm(model: str, image_data: str | list[str], merged_text: str,
             f"4. Use the image{'s' if num_pages > 1 else ''} as reference for correct annotation in the order provided\n"
             "5. Return only the TEI-XML markup, nothing else\n"
             "6. Place <lb/> tags at the beginning of each line\n"
-            '7. Use <g ref="#typoHyphen"/> for hyphenation marks and <lb break="no"/> for continuing words\n'
-            f"8. {pb_instruction}"
+            f"7. {pb_instruction}"
         )
     elif chosen_prompt == "prompt-tei-custom" and custom_prompt_text:
         prompt_text = custom_prompt_text
